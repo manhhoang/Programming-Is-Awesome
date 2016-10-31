@@ -6,6 +6,7 @@ Any **recommendations** and **suggestions** are welcomed.
 
 ## Table of Contents
 
+- [Cloud Provider](#cloud-provider)
 - [Big Data](#big-data)
     - [Big Data Distributor](#big-data-distributor)
     - [Big Data Ingestion Layer](#big-data-ingestion-layer)
@@ -14,13 +15,26 @@ Any **recommendations** and **suggestions** are welcomed.
     - [Resource Manager](#resource-manager)
     - [Distributed SQL Query Engine](#distributed-sql-query-engine)
     - [Machine Learning](#machine-learning)
+    - [Notebook](#notebook)
 - [Data Base](#data-base)
     - [Column Family](#column-family)
-- [Frameworks & Tools](#frameworks--tools)        
-    - [Monitoring](#monitoring)    
+- [Frameworks & Tools](#frameworks--tools)
+    - [Reactive Framework](#reactive-framework)
+    - [Micoservices Framework](#micoservices-framework)    
+    - [Monitoring](#monitoring)
+    - [Load Balancer](#load-balancer)
+    - [API Gateway](#api-gateway)
+    - [Testing Tools](#testing-tools)  
+    - [Code Quality Analyzer](#code-quality-analyzer)  
+    - [Code Security Analyzer](#code-security-analyzer)
+    - [SQL Database Version Manager](#sql-database-version-manager)
+    - [SMTP Server](#smtp-server)
 - [Game Engines](#game-engines)
 
 ***********
+
+## Cloud Provider
+- [Amazon Web Services (AWS)](https://aws.amazon.com/) - Amazon Web Services offers reliable, scalable, and inexpensive cloud computing services. Free to join, pay only for what you use.
 
 ## Big Data
 
@@ -52,6 +66,9 @@ Any **recommendations** and **suggestions** are welcomed.
 ### Machine Learning
 - [Apache Mahout](https://mahout.apache.org/) - The Apache Mahout™ project's goal is to build an environment for quickly creating scalable performant machine learning applications.
 
+### Notebook
+- [Jupyter](http://jupyter.org/) - Open source, interactive data science and scientific computing across over 40 programming languages.
+
 <br>
 
 ## Data Base
@@ -63,8 +80,36 @@ Any **recommendations** and **suggestions** are welcomed.
 
 ## Frameworks & Tools
 
+### Reactive Framework
+- [Akka](http://akka.io/) - Akka is a toolkit and runtime for building highly concurrent, distributed, and resilient message-driven applications on the JVM.
+
+### Micoservices Framework
+- [Lagom](http://www.lagomframework.com/) - Lagom is a framework for creating reactive microservice-based systems.
+
 ### Monitoring
 - [Ganglia](http://ganglia.info/) - Ganglia is a scalable distributed monitoring system for high-performance computing systems such as clusters and Grids.
+
+### Load Balancer
+- [HAProxy](http://www.haproxy.org/) - The Reliable, High Performance TCP/HTTP Load Balancer.
+
+### API Gateway
+- [Tyk](https://tyk.io/) - Tyk is an open source API Gateway that is fast, scalable and modern.
+- [WSO2](http://wso2.com/) - WSO2 provides the open source enterprise platform that helps to build, integrate, analyse and manage your APIs, applications, and Web services.
+
+### Testing Tools
+- [JUnit](http://junit.org/) - JUnit is a simple framework to write repeatable tests.
+
+### Code Quality Analyzer
+- [SonarQube](http://www.sonarqube.org/) - SonarQube is an open platform to manage code quality.
+
+### Code Security Analyzer
+- [Checkmarx](https://www.checkmarx.com/) - Checkmarx is a provider of state-of-the-art application security solution: static code analysis software, seamlessly integrated into development process.
+
+### SQL Database Version Manager
+- [Flyway](https://flywaydb.org/) - Flyway lets you regain control of your database migrations with pleasure and plain sql.
+
+### SMTP Server
+- [Apache James](https://james.apache.org/) - The Apache Java Mail Server is a 100% pure Java SMTP, IMAP4 and POP3 Mail server designed to be a complete and portable enterprise mail. 
 
 <br>
 

@@ -16,8 +16,11 @@ Any **recommendations** and **suggestions** are welcomed.
     - [Distributed SQL Query Engine](#distributed-sql-query-engine)
     - [Machine Learning](#machine-learning)
     - [Notebook](#notebook)
-- [Data Base](#data-base)
+- [Database](#database)
     - [Column Family](#column-family)
+- [Data Warehouse](#data-warehouse)
+- [Distributed File System](#distributed-file-system)
+- [BI Tools](#bi-tools)   
 - [Frameworks & Tools](#frameworks--tools)
     - [Reactive Framework](#reactive-framework)
     - [Micoservices Framework](#micoservices-framework)    
@@ -50,6 +53,7 @@ Any **recommendations** and **suggestions** are welcomed.
 
 ### Big Data Ingestion Layer
 - [Apache Kafka](https://kafka.apache.org/) - Kafka™ is used for building real-time data pipelines and streaming apps. 
+- [Apache Flume](https://flume.apache.org/) - Flume is a distributed, reliable, and available service for efficiently collecting, aggregating, and moving large amounts of log data.
 
 ### Big Data Speed Layer
 - [Confluent Platform](http://www.confluent.io/) - The free, open-source streaming platform based on Apache Kafka. Confluent Platform is the best way to get started with real-time data streams.
@@ -71,10 +75,25 @@ Any **recommendations** and **suggestions** are welcomed.
 
 <br>
 
-## Data Base
+## Database
 
 ### Column Family
 - [DataStax](http://www.datastax.com/) - DataStax powers the big data applications that transform business and profoundly improve customer experiences through Apache Cassandra™.
+
+<br>
+
+## Data Warehouse
+- [Redshift](https://aws.amazon.com/documentation/redshift/) - Amazon Redshift is a fast, fully managed, petabyte-scale data warehouse service.
+
+<br>
+
+## Distributed File System
+- [DSEFS](https://docs.datastax.com/en/latest-dse/datastax_enterprise/ana/aboutDsefs.html) - DSEFS (DataStax Enterprise file system) is a new distributed file system within DataStax Enterprise.
+
+<br>
+
+## BI Tools
+- [Tableau](https://www.tableau.com/) - Tableau is data visualization software.
 
 <br>
 

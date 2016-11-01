@@ -19,6 +19,7 @@ Any **recommendations** and **suggestions** are welcomed.
 - [Database](#database)
     - [Column Family](#column-family)
     - [Document Oriented](#document-oriented)
+    - [Search DB](#Search-db)
 - [Data Warehouse](#data-warehouse)
 - [Distributed File System](#distributed-file-system)
 - [BI Tools](#bi-tools)   
@@ -120,6 +121,14 @@ Any **recommendations** and **suggestions** are welcomed.
 
 ### Document Oriented
 - [MongoDB](https://www.mongodb.com/) - MongoDB for GIANT Ideas - Build innovative modern applications that create a competitive advantage.
+- [CouchDB](http://couchdb.apache.org/) - Apache CouchDB is open source database software that focuses on ease of use and having an architecture that "completely embraces the Web".
+- [Couchbase](http://www.couchbase.com/) - NoSQL database is developed by Couchbase.
+- [DocumentDB](https://azure.microsoft.com/en-us/services/documentdb/) - DocumentDB is a fully managed NoSQL database service built for fast and predictable performance, high availability, elastic scaling.
+
+### Search DB
+- [Elasticsearch](https://www.elastic.co/products/elasticsearch) - Elasticsearch is a distributed, RESTful search and analytics engine capable of solving a growing number of use cases.
+- [Apache Solr](https://lucene.apache.org/solr/) - Solr is highly reliable, scalable and fault tolerant, providing distributed indexing, replication and load-balanced querying.
+- [Splunk](https://www.splunk.com/) - Splunk Inc. provides the leading platform for Operational Intelligence. Customers use Splunk to search, monitor, analyze and visualize machine data.
 
 <br>
 

@@ -6,7 +6,7 @@ Any **recommendations** and **suggestions** are welcomed.
 
 ## Table of Contents
 
-- [Cloud Provider](#cloud-provider)
+- [Cloud Providers](#cloud-providers)
 - [Big Data](#big-data)
     - [Big Data Distributor](#big-data-distributor)
     - [Big Data Ingestion Layer](#big-data-ingestion-layer)
@@ -36,8 +36,16 @@ Any **recommendations** and **suggestions** are welcomed.
 
 ***********
 
-## Cloud Provider
+## Cloud Providers
 - [Amazon Web Services (AWS)](https://aws.amazon.com/) - Amazon Web Services offers reliable, scalable, and inexpensive cloud computing services. Free to join, pay only for what you use.
+- [Microsoft Azure](https://azure.microsoft.com/) - Microsoft Azure is an open, flexible, enterprise-grade cloud computing platform.
+- [Google Cloud Platform](https://cloud.google.com/) - Google Cloud Platform lets you build and host applications and websites, store data, and analyze data on Google's scalable infrastructure.
+- [IBM Bluemix](https://www.ibm.com/cloud-computing/bluemix/) - Bluemix is an open standards, cloud platform for building, running, and managing apps and services.
+- [OpenStack](https://www.openstack.org/) - OpenStack software controls large pools of compute, storage, and networking resources throughout a datacenter.
+- [Apache CloudStack](https://cloudstack.apache.org/) - Apache CloudStack is open source software designed to deploy and manage large networks of virtual machines.
+- [Cloud Foundry](https://www.cloudfoundry.org/) - Cloud Foundry is an open source cloud computing platform as a service (PaaS) originally developed by VMware and now overseen by the Cloud Foundry.
+- [DigitalOcean](https://www.digitalocean.com/) - DigitalOcean is a simple and robust cloud computing platform, designed for developers. 
+- [Heroku](https://www.heroku.com/) - Heroku is a platform as a service (PaaS) that enables developers to build, run, and operate applications entirely in the cloud.
 
 ## Big Data
 
@@ -54,12 +62,25 @@ Any **recommendations** and **suggestions** are welcomed.
 ### Big Data Ingestion Layer
 - [Apache Kafka](https://kafka.apache.org/) - Kafka™ is used for building real-time data pipelines and streaming apps. 
 - [Apache Flume](https://flume.apache.org/) - Flume is a distributed, reliable, and available service for efficiently collecting, aggregating, and moving large amounts of log data.
+- [RabbitMQ](https://www.rabbitmq.com/) - RabbitMQ is open source message broker software that implements the Advanced Message Queuing Protocol (AMQP).
+- [Mosquitto](https://mosquitto.org/) - Mosquitto is an open source message broker that implements the MQTT (MQ Telemetry Transport) protocol v3.1.
+- [Logstash](https://www.elastic.co/products/logstash) - Logstash is an open source, server-side data processing pipeline that ingests data from a multitude of sources simultaneously.
+- [Spring XD](http://projects.spring.io/spring-xd/) - Spring XD is a unified, distributed, and extensible service for data ingestion, real time analytics, batch processing, and data export.
 
 ### Big Data Speed Layer
 - [Confluent Platform](http://www.confluent.io/) - The free, open-source streaming platform based on Apache Kafka. Confluent Platform is the best way to get started with real-time data streams.
+- [Apache Storm](http://storm.apache.org/) - Apache Storm is a free and open source distributed realtime computation system.
+- [Apache Spark Streaming](http://spark.apache.org/streaming/) - Spark Streaming brings Apache Spark's language-integrated API to stream processing, letting you write streaming jobs the same way you write batch jobs.
+- [Apache Flume Interceptor](https://flume.apache.org/) - Flume is a distributed, reliable, and available service for efficiently collecting, aggregating, and moving large amounts of log data.
+- [Apache Samza](http://samza.apache.org/) - Apache Samza is a distributed stream processing framework. It uses Apache Kafka for messaging, and Apache Hadoop YARN to provide fault tolerance.
+- [Apache Gearpump](https://gearpump.apache.org/) - Apache Gearpump is a real-time big data streaming engine.
+- [Spring XD](http://projects.spring.io/spring-xd/) - Spring XD is a unified, distributed, and extensible service for data ingestion, real time analytics, batch processing, and data export.
 
 ### Big Data Batch Layer
 - [Apache Spark](http://spark.apache.org/) - Apache Spark™ is a fast and general engine for large-scale data processing.
+- [Apache MapReduce](http://hadoop.apache.org/) - The Apache Hadoop MapReduce software library is a framework that allows for the distributed processing of large data sets across clusters of computers using simple programming models.
+- [Spring XD](http://projects.spring.io/spring-xd/) - Spring XD is a unified, distributed, and extensible service for data ingestion, real time analytics, batch processing, and data export.
+- [Apache Flink](https://flink.apache.org/) - Apache Flink® is an open source platform for distributed stream and batch data.
 
 ### Resource Manager
 - [Apache Mesos](http://mesos.apache.org/) - Apache Mesos abstracts CPU, memory, storage, and other compute resources away from machines (physical or virtual), enabling fault-tolerant and elastic distributed systems to easily be built and run effectively.

@@ -20,6 +20,9 @@ Any **recommendations** and **suggestions** are welcomed.
     - [Column Family](#column-family)
     - [Document Oriented](#document-oriented)
     - [Search DB](#Search-db)
+    - [Graph DB](#graph-db)
+    - [NewSQL](#newsql)
+    - [In-memory DB](#in-memory-db)
 - [Data Warehouse](#data-warehouse)
 - [Distributed File System](#distributed-file-system)
 - [BI Tools](#bi-tools)   
@@ -129,6 +132,18 @@ Any **recommendations** and **suggestions** are welcomed.
 - [Elasticsearch](https://www.elastic.co/products/elasticsearch) - Elasticsearch is a distributed, RESTful search and analytics engine capable of solving a growing number of use cases.
 - [Apache Solr](https://lucene.apache.org/solr/) - Solr is highly reliable, scalable and fault tolerant, providing distributed indexing, replication and load-balanced querying.
 - [Splunk](https://www.splunk.com/) - Splunk Inc. provides the leading platform for Operational Intelligence. Customers use Splunk to search, monitor, analyze and visualize machine data.
+
+### Graph DB
+- [Neo4j](https://neo4j.com/) - Neo4j is a graph database management system developed by Neo Technology, Inc.
+- [Titan](http://titan.thinkaurelius.com/) - Titan is a scalable graph database optimized for storing and querying graphs containing hundreds of billions of vertices and edges distributed across clusters.
+- [GraphX](http://spark.apache.org/graphx/) - GraphX is Apache Spark's API for graphs and graph-parallel computation, with a built-in library of common algorithms.
+
+### NewSQL
+- [NouDB](http://www.nuodb.com/) - NuoDB is a database startup company based in Cambridge, Massachusetts. It sells a NewSQL database that works in the cloud.
+- [FoundationDB](http://www.foundationdb.com/) - FoundationDB was a multi-model NoSQL database with a shared nothing architecture.
+
+### In-memory DB
+- [VoltDB](https://www.voltdb.com/) - VoltDB is the world's fastest in-memory operational database - allowing you to ingest data, analyze data, and act on data in milliseconds with real-time experience.
 
 <br>
 

@@ -18,6 +18,7 @@ Any **recommendations** and **suggestions** are welcomed.
     - [Notebook](#notebook)
 - [Database](#database)
     - [Column Family](#column-family)
+    - [Document Oriented](#document-oriented)
 - [Data Warehouse](#data-warehouse)
 - [Distributed File System](#distributed-file-system)
 - [BI Tools](#bi-tools)   
@@ -84,9 +85,20 @@ Any **recommendations** and **suggestions** are welcomed.
 
 ### Resource Manager
 - [Apache Mesos](http://mesos.apache.org/) - Apache Mesos abstracts CPU, memory, storage, and other compute resources away from machines (physical or virtual), enabling fault-tolerant and elastic distributed systems to easily be built and run effectively.
+- [Mesosphere](https://mesosphere.com/) - Mesosphere Enterprise DC/OS is an enterprise grade datacenter-scale operating system, providing a single platform for running containers, big data.
+- [Apache Yarn](http://hadoop.apache.org/) - The Apache Hadoop Yarn software library is a framework that allows for the distributed processing of large data sets across clusters of computers using simple programming models.
 
 ### Distributed SQL Query Engine
 - [Apache Impala](http://impala.apache.org/) - Apache Impala is the open source, native analytic database for Apache Hadoop. Impala is shipped by Cloudera, MapR, Oracle, and Amazon.
+- [Apache Hive](https://hive.apache.org/) - Apache Hive is a data warehouse infrastructure built on top of Hadoop for providing data summarization, query, and analysis.
+- [Spark SQL](http://spark.apache.org/sql/) - Spark SQL is a Spark module for structured data processing.
+- [Apache Drill](https://drill.apache.org/) - Drill supports a variety of NoSQL databases and file systems, including HBase, MongoDB, MapR-DB, HDFS, MapR-FS, Amazon S3, Azure Blob Storage.
+- [Presto](https://prestodb.io/) - Presto is an open source distributed SQL query engine for running interactive analytic queries against data sources of all sizes ranging.
+- [Hive on Apache Tez](https://tez.apache.org/) - The Apache Tez™ project is aimed at building an application framework which allows for a complex directed-acyclic-graph of tasks for processing data.
+- [Apache Phoenix](http://phoenix.apache.org/) - Apache Phoenix takes your SQL query, compiles it into a series of HBase scans.
+- [Apache HAWQ](http://hawq.incubator.apache.org/) - Apache HAWQ (incubating) combines exceptional MPP-based analytics performance, robust ANSI SQL compliance, Hadoop ecosystem.
+- [IBM Big SQL](http://www.ibm.com/analytics/us/en/technology/big-sql/) - IBM Big SQL is a data warehouse system for Hadoop that you use to summarize, query, and analyze data.
+- [Apache Kylin](http://kylin.apache.org/) - Apache Kylin™ is an open source Distributed Analytics Engine.
 
 ### Machine Learning
 - [Apache Mahout](https://mahout.apache.org/) - The Apache Mahout™ project's goal is to build an environment for quickly creating scalable performant machine learning applications.
@@ -99,7 +111,15 @@ Any **recommendations** and **suggestions** are welcomed.
 ## Database
 
 ### Column Family
-- [DataStax](http://www.datastax.com/) - DataStax powers the big data applications that transform business and profoundly improve customer experiences through Apache Cassandra™.
+- [DataStax Enterprise](http://www.datastax.com/) - DataStax powers the big data applications that transform business and profoundly improve customer experiences through Apache Cassandra™.
+- [Amazon DynamoDB](https://aws.amazon.com/documentation/dynamodb/) - Amazon DynamoDB is a fully managed NoSQL database service that provides fast and predictable performance with seamless scalability.
+- [Cassandra](http://cassandra.apache.org/) - The Apache Cassandra database is the right choice when you need scalability and high availability without compromising performance.
+- [Apache HBase](http://hbase.apache.org/) - Apache HBase™ is the Hadoop database, a distributed, scalable, big data store. Use Apache HBase™ when you need random, realtime read/write access.
+- [Apache Accumulo](https://accumulo.apache.org/) - Apache Accumulo™ is a sorted, distributed key/value store that provides robust, scalable data storage and retrieval.
+- [Riak KV](http://basho.com/products/riak-kv/) - Riak® KV is a distributed NoSQL key-value database with advanced local and multi-cluster replication that guarantees reads and writes even in the event of hardware failures or network partitions.
+
+### Document Oriented
+- [MongoDB](https://www.mongodb.com/) - MongoDB for GIANT Ideas - Build innovative modern applications that create a competitive advantage.
 
 <br>
 

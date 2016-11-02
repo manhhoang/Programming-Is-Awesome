@@ -227,9 +227,19 @@ Any **recommendations** and **suggestions** are welcomed.
 
 ### Testing Tools
 - [JUnit](http://junit.org/) - JUnit is a simple framework to write repeatable tests.
+- [Mockito](http://site.mockito.org/) - A mocking framework for unit tests written in Java.
+- [TestNG](http://testng.org/) - TestNG is a testing framework developed in the lines of JUnit and NUnit.
+- [DbUnit](http://dbunit.sourceforge.net/) - A JUnit extension that puts a database into a known state between test runs.
+- [Selenium](http://docs.seleniumhq.org/) - Selenium is a suite of tools to automate web browsers across many platforms.
+- [Cucumber](https://cucumber.io/) - Cucumber is a software tool that computer programmers use for testing other software.
+- [SoapUI](https://www.soapui.org/) - SoapUI, is the world leading Open Source Functional Testing tool for API Testing.
+- [LoadUI](https://www.loadui.org/) - LoadUI, a Performance Load Testing tool for APIs & Web Services.
+- [Secure Pro](https://smartbear.com/product/ready-api/secure/overview/) - Simulate attacks against your REST and SOAP services so you know they're safe. Build a Trusted API with Secure Pro, Based on The world's Most Trusted API.
 
 ### Code Quality Analyzer
 - [SonarQube](http://www.sonarqube.org/) - SonarQube is an open platform to manage code quality.
+- [Gerrit](https://www.gerritcodereview.com/) - Gerrit provides web based code review and repository management for the Git version control system.
+- [PMD](https://pmd.github.io/) - PMD is a source code analyzer.
 
 ### Code Security Analyzer
 - [Checkmarx](https://www.checkmarx.com/) - Checkmarx is a provider of state-of-the-art application security solution: static code analysis software, seamlessly integrated into development process.

@@ -40,6 +40,7 @@ Any **recommendations** and **suggestions** are welcomed.
     - [SQL Database Version Manager](#sql-database-version-manager)
     - [SMTP Server](#smtp-server)
 - [DevOps](#devops)
+- [Security](#security)
 - [Game Engines](#game-engines)
 
 ***********
@@ -198,9 +199,17 @@ Any **recommendations** and **suggestions** are welcomed.
 
 ### Reactive Framework
 - [Akka](http://akka.io/) - Akka is a toolkit and runtime for building highly concurrent, distributed, and resilient message-driven applications on the JVM.
+- [Reactor](http://projectreactor.io/) - Reactor is a fully non-blocking foundation with efficient demand management.
+- [ReactiveX](http://reactivex.io/) - ReactiveX is a combination of the best ideas from the Observer pattern, the Iterator pattern, and functional programming.
+- [Erlang](https://www.erlang.org/) - Erlang is a programming language used to build massively scalable soft real-time systems with requirements on high availability.
+- [Goroutines](https://gobyexample.com/goroutines) - A goroutine is a function that is capable of running concurrently with other functions.
+- [Vert.x](http://vertx.io/) - Vert.x is a tool-kit for building reactive applications on the JVM.
+- [Play Framework](https://www.playframework.com/) - Play Framework makes it easy to build web applications with Java & Scala. Play is based on a lightweight, stateless, web-friendly architecture. Built on Akka.
+- [Spring Web Reactive](http://docs.spring.io/spring-framework/docs/5.0.0.M1/spring-framework-reference/html/web-reactive.html) - Reactive programming is about non-blocking applications that are asynchronous and event-driven and require a small number of threads to scale.
 
 ### Micoservices Framework
 - [Lagom](http://www.lagomframework.com/) - Lagom is a framework for creating reactive microservice-based systems.
+- [Spring Boot](https://projects.spring.io/spring-boot/) - Spring Boot makes it easy to create stand-alone, production-grade Spring based Applications that you can "just run".
 
 ### Monitoring
 - [Ganglia](http://ganglia.info/) - Ganglia is a scalable distributed monitoring system for high-performance computing systems such as clusters and Grids.
@@ -236,6 +245,16 @@ Any **recommendations** and **suggestions** are welcomed.
 - [Bamboo](https://www.atlassian.com/software/bamboo) - Continuous delivery, from code to deployment. ... Focus on coding and count on Bamboo as your CI and build server.
 - [Chef](https://www.chef.io/chef/) - Chef is an open source software agent that automates your infrastructure by turning it into code.
 - [Puppet](https://puppet.com/) - Puppet is an open-source configuration management tool.
+
+<br>
+
+## Security
+- [OWASP](https://www.owasp.org/) - The Open Web Application Security Project (OWASP) is an online community which creates freely-available articles, methodologies, documentation, tools.
+- [OAuth](https://oauth.net/) - OAuth is an open standard for authorization, commonly used as a way for Internet users to authorize websites or applications to access their information on other.
+- [SAML](https://en.wikipedia.org/wiki/Security_Assertion_Markup_Language) - Security Assertion Markup Language (SAML, pronounced sam-el) is an XML-based, open-standard data format for exchanging authentication and authorization data.
+- [MIT KDC](https://web.mit.edu/kerberos/krb5-devel/doc/admin/install_kdc.html) - Kerberos is a network authentication protocol. It is designed to provide strong authentication for client/server applications by using secret-key cryptography.
+- [OpenLDAP](http://www.openldap.org/) - OpenLDAP Software is an open source implementation of the Lightweight Directory Access Protocol.
+- [Active Directory](https://en.wikipedia.org/wiki/Active_Directory) - Active Directory (AD) is a directory service that Microsoft developed for Windows domain networks.
 
 <br>
 

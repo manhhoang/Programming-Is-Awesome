@@ -47,7 +47,7 @@ Any **recommendations** and **suggestions** are welcomed.
 ***********
 
 ## Architecture
-- [MicroServices](https://en.wikipedia.org/wiki/Microservices) - Microservices is a specialisation of and implementation approach for distributed architectures used to build flexible, independently deployable software systems.
+- [Microservices](https://en.wikipedia.org/wiki/Microservices) - Microservices is a specialisation of and implementation approach for distributed architectures used to build flexible, independently deployable software systems.
 - [Reactive Programming](https://en.wikipedia.org/wiki/Reactive_programming) - Reactive programming is about non-blocking applications that are asynchronous and event-driven and require a small number of threads to scale.
 - [Lambda Architecture](http://lambda-architecture.net/) - Lambda architecture is a data-processing architecture designed to handle massive quantities of data by taking advantage of both batch- and stream-processing.
 - [CQRS](http://martinfowler.com/bliki/CQRS.html) - Command and Query Responsibility Segregation (CQRS) is a pattern that segregates the operations that read data (Queries) from the operations that update data (Commands) by using separate interfaces.
@@ -207,6 +207,12 @@ Any **recommendations** and **suggestions** are welcomed.
 
 ## BI Tools
 - [Tableau](https://www.tableau.com/) - Tableau is data visualization software.
+- [Pentaho](http://www.pentaho.com/) - Pentaho's big data integration and analytics solutions turn information into insights to help your organization gain a competitive advantage.
+- [Qlik](https://www.qlik.com/) - Qlik delivers Business Intelligence software for data visualization, guided analytics, embedded analytics and reporting to over 40000 customers worldwide.
+- [Birt](http://www.eclipse.org/birt/about/) - BIRT is an open source software project that provides the BIRT technology platform to create data visualizations and reports.
+- [JasperReports®](http://community.jaspersoft.com/) - The JasperReports Library is the world's most popular open source reporting engine.
+- [SAS Visual Analytics](http://www.sas.com/en_us/software/business-intelligence/visual-analytics.html) - Robust reporting and mobile BI.
+- [IBM Watson Analytics](https://watson.analytics.ibmcloud.com/product) - Watson Analytics guides analysis with automated data visualization and discovery so you can uncover insights on your own.
 
 <br>
 

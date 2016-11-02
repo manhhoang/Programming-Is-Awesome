@@ -23,6 +23,8 @@ Any **recommendations** and **suggestions** are welcomed.
     - [Graph DB](#graph-db)
     - [NewSQL](#newsql)
     - [In-memory DB](#in-memory-db)
+    - [Event Store](#event-store)
+    - [Embedded Database](#embedded-database)    
 - [Data Warehouse](#data-warehouse)
 - [Distributed File System](#distributed-file-system)
 - [BI Tools](#bi-tools)   
@@ -37,6 +39,7 @@ Any **recommendations** and **suggestions** are welcomed.
     - [Code Security Analyzer](#code-security-analyzer)
     - [SQL Database Version Manager](#sql-database-version-manager)
     - [SMTP Server](#smtp-server)
+- [DevOps](#devops)
 - [Game Engines](#game-engines)
 
 ***********
@@ -51,6 +54,8 @@ Any **recommendations** and **suggestions** are welcomed.
 - [Cloud Foundry](https://www.cloudfoundry.org/) - Cloud Foundry is an open source cloud computing platform as a service (PaaS) originally developed by VMware and now overseen by the Cloud Foundry.
 - [DigitalOcean](https://www.digitalocean.com/) - DigitalOcean is a simple and robust cloud computing platform, designed for developers. 
 - [Heroku](https://www.heroku.com/) - Heroku is a platform as a service (PaaS) that enables developers to build, run, and operate applications entirely in the cloud.
+- [SAP HANA Cloud Platform](https://hcp.sap.com/index.html) - SAP HANA Cloud Platform is an open platform-as-a-service that provides unique in-memory database and application services.
+- [Oracle Cloud](https://cloud.oracle.com/) - Oracle Cloud Platform as a Service (PaaS) helps enterprise IT and independent software vendor (ISV) developers rapidly build and deploy rich applications.
 
 ## Big Data
 
@@ -143,7 +148,34 @@ Any **recommendations** and **suggestions** are welcomed.
 - [FoundationDB](http://www.foundationdb.com/) - FoundationDB was a multi-model NoSQL database with a shared nothing architecture.
 
 ### In-memory DB
+- [Oracle Database In-Memory](https://www.oracle.com/database/database-in-memory/index.html) - Oracle Database In-Memory delivers leading-edge in-memory performance without the need to restrict functionality or accept compromises, complexity and risk.
+- [DB2 BLU](http://www.ibmbluhub.com/) - BLU Acceleration is revolutionary in-memory technology that is designed for high-performance analytics and data-intensive reporting.
+- [IBM dashDB](https://console.ng.bluemix.net/catalog/services/dashdb) - IBM dashDB offers fully-managed, SQL database services.
+- [Hekaton](https://www.microsoft.com/en-us/research/publication/hekaton-sql-servers-memory-optimized-oltp-engine/) - Hekaton is a new database engine optimized for memory resident data and OLTP workloads.
+- [Apache Kudu](http://kudu.apache.org/) - Apache Kudu completes Hadoop's storage layer to enable fast analytics on fast data.
+- [Redis](http://redis.io/) - Redis is an open source (BSD licensed), in-memory data structure store, used as database, cache and message broker.
 - [VoltDB](https://www.voltdb.com/) - VoltDB is the world's fastest in-memory operational database - allowing you to ingest data, analyze data, and act on data in milliseconds with real-time experience.
+- [MemcacheDB](http://memcachedb.org/) - MemcacheDB is a distributed key-value storage system designed for persistent.
+- [Pivotal GemFire](https://pivotal.io/big-data/pivotal-gemfire) - Pivotal GemFire is an in-memory distributed data grid for high scale custom applications.
+- [Apache Geode](http://geode.apache.org/) - Apache Geode is a distributed, in-memory database with strong data consistency.
+- [H2](http://www.h2database.com/) - H2 is a relational database management system written in Java. It can be embedded in Java applications or run in the client-server mode.
+- [Hazelcast](https://hazelcast.com/) - Hazelcast is the leading in-memory data grid solution.
+- [Ehcache](http://www.ehcache.org/) - Ehcache is an open source, standards-based cache that boosts performance, offloads your database, and simplifies scalability.
+- [Infinispan](http://infinispan.org/) - Infinispan is a distributed cache and key-value NoSQL data store software developed by Red Hat.
+- [GridGain](https://www.gridgain.com/) - The GridGain Enterprise Edition includes valuable features added to Apache® Ignite™ which make deploying and maintaining a high performance in-memory.
+- [Apache Ignite](https://ignite.apache.org/) - Apache Ignitetm In-Memory Data Fabric is a high-performance, integrated and distributed in-memory platform for computing and transacting.
+- [JCS](https://commons.apache.org/proper/commons-jcs/) - JCS is a distributed caching system written in Java.
+
+### Event Store
+- [Event Store](https://geteventstore.com/) - The open-source, functional database with Complex Event Processing in JavaScript.
+
+### Embedded Database
+- [RocksDB](http://rocksdb.org/) - RocksDB is an embeddable persistent key-value store for fast storage.
+- [LevelDB](http://leveldb.org/) - LevelDB is a simple key/value data store built by Google, inspired by BigTable.
+- [SQLite](https://sqlite.org/) - SQLite is a relational database management system contained in a C programming library.
+- [Berkeley DB](http://www.oracle.com/technetwork/database/database-technologies/berkeleydb/overview/index.html) - Berkeley DB is a family of embedded key-value database libraries providing scalable high-performance data management services to applications.
+- [JavaDB](http://www.oracle.com/technetwork/java/javadb/overview/index.html) - Java DB is Oracle's supported distribution of the Apache Derby open source database.
+- [Apache Derby](https://db.apache.org/derby/) - Apache Derby, an Apache DB subproject, is an open source relational database implemented entirely in Java and available under the Apache License.
 
 <br>
 
@@ -194,6 +226,16 @@ Any **recommendations** and **suggestions** are welcomed.
 
 ### SMTP Server
 - [Apache James](https://james.apache.org/) - The Apache Java Mail Server is a 100% pure Java SMTP, IMAP4 and POP3 Mail server designed to be a complete and portable enterprise mail. 
+
+<br>
+
+## DevOps
+- [Docker](https://www.docker.com/) - Docker is an open platform for developers and sysadmins to build, ship, and run distributed applications, whether on laptops, data center VMs, or the cloud.
+- [Ansible](https://www.ansible.com/) - Ansible is the simplest way to automate apps and IT infrastructure.
+- [Jenkins](https://jenkins.io/) - Jenkins is an open source automation server written in Java.
+- [Bamboo](https://www.atlassian.com/software/bamboo) - Continuous delivery, from code to deployment. ... Focus on coding and count on Bamboo as your CI and build server.
+- [Chef](https://www.chef.io/chef/) - Chef is an open source software agent that automates your infrastructure by turning it into code.
+- [Puppet](https://puppet.com/) - Puppet is an open-source configuration management tool.
 
 <br>
 

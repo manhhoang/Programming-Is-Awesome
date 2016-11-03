@@ -26,8 +26,10 @@ Any **recommendations** and **suggestions** are welcomed.
     - [NewSQL](#newsql)
     - [In-memory DB](#in-memory-db)
     - [Event Store](#event-store)
-    - [Embedded Database](#embedded-database)    
+    - [Embedded Database](#embedded-database)
+    - [Time Series](#time-series)    
 - [Data Warehouse](#data-warehouse)
+- [Storage](#storage)
 - [Distributed File System](#distributed-file-system)
 - [BI Tools](#bi-tools)   
 - [Frameworks & Tools](#frameworks--tools)
@@ -45,6 +47,9 @@ Any **recommendations** and **suggestions** are welcomed.
 - [DevOps](#devops)
 - [Security](#security)
 - [Game Engines](#game-engines)
+- [AI Tools](#ai-tools)
+- [IoT](#iot)
+    - [IoT OS](#iot-os) 
 
 ***********
 
@@ -202,6 +207,9 @@ Any **recommendations** and **suggestions** are welcomed.
 - [JavaDB](http://www.oracle.com/technetwork/java/javadb/overview/index.html) - Java DB is Oracle's supported distribution of the Apache Derby open source database.
 - [Apache Derby](https://db.apache.org/derby/) - Apache Derby, an Apache DB subproject, is an open source relational database implemented entirely in Java and available under the Apache License.
 
+### Time Series
+- [Riak TS](http://basho.com/products/riak-ts/) - Riak® TS is the only enterprise-grade NoSQL time series database optimized specifically for IoT and Time Series data.
+
 <br>
 
 ## Data Warehouse
@@ -210,6 +218,12 @@ Any **recommendations** and **suggestions** are welcomed.
 - [Pivotal Greenplum](https://pivotal.io/big-data/pivotal-greenplum) - Pivotal Greenplum is a commercial fully featured data warehouse powered by the open source Greenplum Database.
 - [InfiniDB](http://infinidb.co/) - Column Database Accelerates Insights for Analytics, BI, and Data Warehouse.
 - [Druid](http://druid.io/) - Druid supports fast aggregations and sub-second OLAP queries.
+
+<br>
+
+## Storage
+- [Amazon Simple Storage Service (S3)](https://aws.amazon.com/s3/) - Amazon Simple Storage Service (Amazon S3), provides developers and IT teams with secure, durable, highly-scalable cloud storage.
+- [Riak S2](http://basho.com/products/riak-s2/) - Riak® S2 is a highly available, scalable, easy-to-operate object storage software solution that’s optimized for holding videos, images, and other files.
 
 <br>
 
@@ -282,6 +296,7 @@ Any **recommendations** and **suggestions** are welcomed.
 
 ### SQL Database Version Manager
 - [Flyway](https://flywaydb.org/) - Flyway lets you regain control of your database migrations with pleasure and plain sql.
+- [Liquibase](http://www.liquibase.org/) - Liquibase is an open source database-independent library for tracking, managing and applying database schema changes. 
 
 ### SMTP Server
 - [Apache James](https://james.apache.org/) - The Apache Java Mail Server is a 100% pure Java SMTP, IMAP4 and POP3 Mail server designed to be a complete and portable enterprise mail. 
@@ -313,6 +328,16 @@ Any **recommendations** and **suggestions** are welcomed.
 
 ## Game Engines
 - [Unity3D](https://unity3d.com/) - Unity3D is a cross-platform game engine developed by Unity Technologies and used to develop video games for PC, consoles, mobile devices and websites.
+
+## AI Tools
+- [IBM Watson](http://www.ibm.com/watson/) - IBM Watson is a technology platform that uses natural language processing and machine learning to reveal insights from large amounts of unstructured data.
+- [OpenCV](http://opencv.org/) - OpenCV (Open Source Computer Vision) is a library of programming functions mainly aimed at real-time computer vision.
+
+## IoT
+
+### IoT OS
+- [Brillo](https://developers.google.com/brillo/) - Brillo brings the simplicity and speed of software development to hardware for IoT with an embedded OS, core services, developer kit, and developer console.
+- [mbed OS](https://www.mbed.com/en/platform/mbed-os/) - ARM mbed OS is a platform operating system designed for the internet of things.
 
 **[⬆ back to top](#table-of-contents)**
 

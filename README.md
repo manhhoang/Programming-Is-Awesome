@@ -16,6 +16,7 @@ Any **recommendations** and **suggestions** are welcomed.
     - [Resource Manager](#resource-manager)
     - [Distributed SQL Query Engine](#distributed-sql-query-engine)
     - [Machine Learning](#machine-learning)
+    - [Machine Learning Tools](#machine-learning-tools)
     - [Notebook](#notebook)
 - [Database](#database)
     - [Column Family](#column-family)
@@ -40,6 +41,7 @@ Any **recommendations** and **suggestions** are welcomed.
     - [Code Security Analyzer](#code-security-analyzer)
     - [SQL Database Version Manager](#sql-database-version-manager)
     - [SMTP Server](#smtp-server)
+    - [Profiling Tools](#profiling-tools)
 - [DevOps](#devops)
 - [Security](#security)
 - [Game Engines](#game-engines)
@@ -123,9 +125,20 @@ Any **recommendations** and **suggestions** are welcomed.
 
 ### Machine Learning
 - [Apache Mahout](https://mahout.apache.org/) - The Apache Mahout™ project's goal is to build an environment for quickly creating scalable performant machine learning applications.
+- [Spark MLlib](http://spark.apache.org/mllib/) - MLlib is Apache Spark's scalable machine learning library.
+- [H2O](http://www.h2o.ai/) - H2O is open-source software for big-data analysis.
+- [Apache MADlib](https://madlib.incubator.apache.org/) - Apache MADlib (incubating): Big Data Machine Learning in SQL.
+- [Weka](http://www.cs.waikato.ac.nz/ml/weka/) - Waikato Environment for Knowledge Analysis (Weka) is a popular suite of machine learning software written in Java, developed at the University of Waikato.
+- [Scikit Learn](http://scikit-learn.org/stable/) - An open source Python library that implements a range of machine learning, preprocessing, cross-validation and visualization algorithms.
+- [Apache SystemML](https://systemml.apache.org/) - Apache SystemML provides an optimal workplace for Machine Learning using big data.
+
+### Machine Learning Tools
+- [PyData](http://pydata.org/) - PyData is a gathering of users and developers of data analysis tools in Python.
 
 ### Notebook
 - [Jupyter](http://jupyter.org/) - Open source, interactive data science and scientific computing across over 40 programming languages.
+- [Zeppelin](https://zeppelin.apache.org/) - Apache Zeppelin interpreter concept allows any language/data-processing-backend to be plugged into Zeppelin.
+- [RStudio](https://www.rstudio.com/) - A powerful and productive user interface for R.
 
 <br>
 
@@ -234,6 +247,12 @@ Any **recommendations** and **suggestions** are welcomed.
 
 ### Monitoring
 - [Ganglia](http://ganglia.info/) - Ganglia is a scalable distributed monitoring system for high-performance computing systems such as clusters and Grids.
+- [Nagios](https://www.nagios.org/) - Nagios provides enterprise-class Open Source IT monitoring, network monitoring, server and applications monitoring.
+- [Datadog](https://www.datadoghq.com/) - See metrics from all of your apps, tools & services in one place with Datadog's cloud monitoring as a service solution.
+- [New Relic](https://newrelic.com/) - A software analytics tool suite used by developers, ops, and software companies to understand how your applications are performing in development.
+- [Perfino](https://www.ej-technologies.com/products/perfino/overview.html) - Perfino is a zero-overhead APM solution for monitoring Java application servers.
+- [Sensu](https://sensuapp.org/) - Monitor servers, services, application health, and business KPIs.
+- [OverOps](https://www.overops.com/) - Know why Java code fails in production.
 
 ### Load Balancer
 - [HAProxy](http://www.haproxy.org/) - The Reliable, High Performance TCP/HTTP Load Balancer.
@@ -266,6 +285,9 @@ Any **recommendations** and **suggestions** are welcomed.
 
 ### SMTP Server
 - [Apache James](https://james.apache.org/) - The Apache Java Mail Server is a 100% pure Java SMTP, IMAP4 and POP3 Mail server designed to be a complete and portable enterprise mail. 
+
+### Profiling Tools
+- [JProfiler](https://www.ej-technologies.com/products/jprofiler/overview.html) - JProfiler is the leading Java Profiler for profiling on the JVM. 
 
 <br>
 

@@ -50,6 +50,7 @@ Any **recommendations** and **suggestions** are welcomed.
 - [AI Tools](#ai-tools)
 - [IoT](#iot)
     - [IoT OS](#iot-os) 
+- [Summit Events](#summit-events)
 
 ***********
 
@@ -60,8 +61,6 @@ Any **recommendations** and **suggestions** are welcomed.
 - [CQRS](http://martinfowler.com/bliki/CQRS.html) - Command and Query Responsibility Segregation (CQRS) is a pattern that segregates the operations that read data (Queries) from the operations that update data (Commands) by using separate interfaces.
 - [Event Sourcing](http://microservices.io/patterns/data/event-sourcing.html) - Event Sourcing persists each business entity as a sequence of events.
 - [Materialized View](https://en.wikipedia.org/wiki/Materialized_view) - A materialized view is a database object that contains the results of a query.
-
-<br>
 
 ## Cloud Providers
 - [Amazon Web Services (AWS)](https://aws.amazon.com/) - Amazon Web Services offers reliable, scalable, and inexpensive cloud computing services. Free to join, pay only for what you use.
@@ -145,8 +144,6 @@ Any **recommendations** and **suggestions** are welcomed.
 - [Zeppelin](https://zeppelin.apache.org/) - Apache Zeppelin interpreter concept allows any language/data-processing-backend to be plugged into Zeppelin.
 - [RStudio](https://www.rstudio.com/) - A powerful and productive user interface for R.
 
-<br>
-
 ## Database
 
 ### Column Family
@@ -210,8 +207,6 @@ Any **recommendations** and **suggestions** are welcomed.
 ### Time Series
 - [Riak TS](http://basho.com/products/riak-ts/) - Riak® TS is the only enterprise-grade NoSQL time series database optimized specifically for IoT and Time Series data.
 
-<br>
-
 ## Data Warehouse
 - [Redshift](https://aws.amazon.com/documentation/redshift/) - Amazon Redshift is a fast, fully managed, petabyte-scale data warehouse service.
 - [Vertica](http://www8.hp.com/us/en/software-solutions/advanced-sql-big-data-analytics/) - HPE Vertica 8 introduces a unified architecture and advanced in-database analytics capabilities that enable users to conduct sophisticated analysis at industry-leading scale and speed.
@@ -219,18 +214,12 @@ Any **recommendations** and **suggestions** are welcomed.
 - [InfiniDB](http://infinidb.co/) - Column Database Accelerates Insights for Analytics, BI, and Data Warehouse.
 - [Druid](http://druid.io/) - Druid supports fast aggregations and sub-second OLAP queries.
 
-<br>
-
 ## Storage
 - [Amazon Simple Storage Service (S3)](https://aws.amazon.com/s3/) - Amazon Simple Storage Service (Amazon S3), provides developers and IT teams with secure, durable, highly-scalable cloud storage.
 - [Riak S2](http://basho.com/products/riak-s2/) - Riak® S2 is a highly available, scalable, easy-to-operate object storage software solution that’s optimized for holding videos, images, and other files.
 
-<br>
-
 ## Distributed File System
 - [DSEFS](https://docs.datastax.com/en/latest-dse/datastax_enterprise/ana/aboutDsefs.html) - DSEFS (DataStax Enterprise file system) is a new distributed file system within DataStax Enterprise.
-
-<br>
 
 ## BI Tools
 - [Tableau](https://www.tableau.com/) - Tableau is data visualization software.
@@ -240,8 +229,6 @@ Any **recommendations** and **suggestions** are welcomed.
 - [JasperReports®](http://community.jaspersoft.com/) - The JasperReports Library is the world's most popular open source reporting engine.
 - [SAS Visual Analytics](http://www.sas.com/en_us/software/business-intelligence/visual-analytics.html) - Robust reporting and mobile BI.
 - [IBM Watson Analytics](https://watson.analytics.ibmcloud.com/product) - Watson Analytics guides analysis with automated data visualization and discovery so you can uncover insights on your own.
-
-<br>
 
 ## Frameworks & Tools
 
@@ -304,8 +291,6 @@ Any **recommendations** and **suggestions** are welcomed.
 ### Profiling Tools
 - [JProfiler](https://www.ej-technologies.com/products/jprofiler/overview.html) - JProfiler is the leading Java Profiler for profiling on the JVM. 
 
-<br>
-
 ## DevOps
 - [Docker](https://www.docker.com/) - Docker is an open platform for developers and sysadmins to build, ship, and run distributed applications, whether on laptops, data center VMs, or the cloud.
 - [Ansible](https://www.ansible.com/) - Ansible is the simplest way to automate apps and IT infrastructure.
@@ -314,8 +299,6 @@ Any **recommendations** and **suggestions** are welcomed.
 - [Chef](https://www.chef.io/chef/) - Chef is an open source software agent that automates your infrastructure by turning it into code.
 - [Puppet](https://puppet.com/) - Puppet is an open-source configuration management tool.
 
-<br>
-
 ## Security
 - [OWASP](https://www.owasp.org/) - The Open Web Application Security Project (OWASP) is an online community which creates freely-available articles, methodologies, documentation, tools.
 - [OAuth](https://oauth.net/) - OAuth is an open standard for authorization, commonly used as a way for Internet users to authorize websites or applications to access their information on other.
@@ -323,8 +306,6 @@ Any **recommendations** and **suggestions** are welcomed.
 - [MIT KDC](https://web.mit.edu/kerberos/krb5-devel/doc/admin/install_kdc.html) - Kerberos is a network authentication protocol. It is designed to provide strong authentication for client/server applications by using secret-key cryptography.
 - [OpenLDAP](http://www.openldap.org/) - OpenLDAP Software is an open source implementation of the Lightweight Directory Access Protocol.
 - [Active Directory](https://en.wikipedia.org/wiki/Active_Directory) - Active Directory (AD) is a directory service that Microsoft developed for Windows domain networks.
-
-<br>
 
 ## Game Engines
 - [Unity3D](https://unity3d.com/) - Unity3D is a cross-platform game engine developed by Unity Technologies and used to develop video games for PC, consoles, mobile devices and websites.
@@ -338,6 +319,15 @@ Any **recommendations** and **suggestions** are welcomed.
 ### IoT OS
 - [Brillo](https://developers.google.com/brillo/) - Brillo brings the simplicity and speed of software development to hardware for IoT with an embedded OS, core services, developer kit, and developer console.
 - [mbed OS](https://www.mbed.com/en/platform/mbed-os/) - ARM mbed OS is a platform operating system designed for the internet of things.
+
+## Summit Events
+- [Web Summit](https://websummit.net/) - It's been called 'the best technology conference on the planet'.
+- [AWS Summit](https://aws.amazon.com/summits/) - Whether you are new to the cloud or an experienced user, you will learn something new at an AWS Summit.
+- [Gamescom](http://www.gamescom-cologne.com/) - Gamescom (stylized as gamescom) is a trade fair for video games held annually at the Koelnmesse in Cologne, North Rhine-Westphalia, Germany.
+- [GDC](http://www.gdconf.com/) - An event designed to inform and educate game industry professionals on online multiplayer games, mobile and next generation game technologies.
+- [Strata Hadoop World](http://www.stratahadoopworld.com/) - Strata Hadoop World. Where big data, cutting-edge data science, and new business fundamentals intersect–and merge.
+- [Spark Summit](https://spark-summit.org/) - Organized by Databricks, Spark Summit is the premier big data conference series dedicated to bring the Apache Spark community together across the globe.
+- [Reactive Summit](https://www.reactivesummit.org/) - Organized by Lightbend.
 
 **[⬆ back to top](#table-of-contents)**
 

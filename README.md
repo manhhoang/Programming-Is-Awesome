@@ -31,7 +31,8 @@ Any **recommendations** and **suggestions** are welcomed.
 - [Data Warehouse](#data-warehouse)
 - [Storage](#storage)
 - [Distributed File System](#distributed-file-system)
-- [BI Tools](#bi-tools)   
+- [BI Tools](#bi-tools)
+- [Parallel Programming](#parallel-programming)   
 - [Frameworks & Tools](#frameworks--tools)
     - [Reactive Framework](#reactive-framework)
     - [Micoservices Framework](#micoservices-framework)    
@@ -233,6 +234,10 @@ Any **recommendations** and **suggestions** are welcomed.
 - [JasperReports®](http://community.jaspersoft.com/) - The JasperReports Library is the world's most popular open source reporting engine.
 - [SAS Visual Analytics](http://www.sas.com/en_us/software/business-intelligence/visual-analytics.html) - Robust reporting and mobile BI.
 - [IBM Watson Analytics](https://watson.analytics.ibmcloud.com/product) - Watson Analytics guides analysis with automated data visualization and discovery so you can uncover insights on your own.
+
+## Parallel Programming
+- [Actor Model](https://en.wikipedia.org/wiki/Actor_model) - The actor model in computer science is a mathematical model of concurrent computation that treats "actors" as the universal primitives of concurrent computation.
+- [Communicating sequential processes](https://en.wikipedia.org/wiki/Communicating_sequential_processes) - Communicating sequential processes (CSP) is a formal language for describing patterns of interaction in concurrent systems. It is a member of the family of mathematical theories of concurrency known as process algebras, or process calculi, based on message passing via channels.
 
 ## Frameworks & Tools
 

@@ -46,10 +46,12 @@ Any **recommendations** and **suggestions** are welcomed.
     - [Profiling Tools](#profiling-tools)
 - [DevOps](#devops)
 - [Security](#security)
+- [Mobile Frameworks](#mobile-frameworks)
 - [Game Engines](#game-engines)
 - [AI Tools](#ai-tools)
 - [IoT](#iot)
-    - [IoT OS](#iot-os) 
+    - [IoT OS](#iot-os)
+- [UML Tools](#uml-tools)     
 - [Summit Events](#summit-events)
 
 ***********
@@ -244,7 +246,10 @@ Any **recommendations** and **suggestions** are welcomed.
 
 ### Micoservices Framework
 - [Lagom](http://www.lagomframework.com/) - Lagom is a framework for creating reactive microservice-based systems.
+- [Play Framework](https://www.playframework.com/) - Play Framework makes it easy to build web applications with Java & Scala. Play is based on a lightweight, stateless, web-friendly architecture. Built on Akka.
 - [Spring Boot](https://projects.spring.io/spring-boot/) - Spring Boot makes it easy to create stand-alone, production-grade Spring based Applications that you can "just run".
+- [Dropwizard](http://www.dropwizard.io/) - Dropwizard is a Java framework for developing ops-friendly, high-performance, RESTful web services.
+- [Sparkjava](http://sparkjava.com/) - Spark Framework - Create web applications in Java rapidly. Spark is a micro web framework that lets you focus on writing your code, not boilerplate code.
 
 ### Monitoring
 - [Ganglia](http://ganglia.info/) - Ganglia is a scalable distributed monitoring system for high-performance computing systems such as clusters and Grids.
@@ -307,8 +312,14 @@ Any **recommendations** and **suggestions** are welcomed.
 - [OpenLDAP](http://www.openldap.org/) - OpenLDAP Software is an open source implementation of the Lightweight Directory Access Protocol.
 - [Active Directory](https://en.wikipedia.org/wiki/Active_Directory) - Active Directory (AD) is a directory service that Microsoft developed for Windows domain networks.
 
+## Mobile Frameworks
+- [Xamarin](https://www.xamarin.com/) - Xamarin's mobile application development platform with native user interfaces enables sharing of code across all platforms with a single C# codebase.
+- [React Native](https://facebook.github.io/react-native/) - Build Native Mobile Apps using JavaScript and React. React Native lets you build mobile apps using only JavaScript. It uses the same design as React. 
+- [Apache Cordova](https://cordova.apache.org/) - Apache Cordova (formerly PhoneGap) is a popular mobile application development framework originally created by Nitobi.
+
 ## Game Engines
 - [Unity3D](https://unity3d.com/) - Unity3D is a cross-platform game engine developed by Unity Technologies and used to develop video games for PC, consoles, mobile devices and websites.
+- [Unreal Engine](https://www.unrealengine.com) - Unreal Engine 4 is a suite of integrated tools for game developers to design and build games, simulations, and visualizations.
 
 ## AI Tools
 - [IBM Watson](http://www.ibm.com/watson/) - IBM Watson is a technology platform that uses natural language processing and machine learning to reveal insights from large amounts of unstructured data.
@@ -319,6 +330,11 @@ Any **recommendations** and **suggestions** are welcomed.
 ### IoT OS
 - [Brillo](https://developers.google.com/brillo/) - Brillo brings the simplicity and speed of software development to hardware for IoT with an embedded OS, core services, developer kit, and developer console.
 - [mbed OS](https://www.mbed.com/en/platform/mbed-os/) - ARM mbed OS is a platform operating system designed for the internet of things.
+
+## UML Tools
+- [Draw.io](https://www.draw.io/) - Draw.io is free online diagram software for making flowcharts, process diagrams, org charts, UML, ER and network diagrams.
+- [Microsoft Visio](https://products.office.com/en/visio/flowchart-software) - Microsoft Visio (formerly Microsoft Office Visio) is a diagramming and vector graphics application and is part of the Microsoft Office family.
+- [Enterprise Architect](http://www.sparxsystems.com/) - Enterprise architects are practitioners of enterprise architecture; an enterprise strategic management discipline that operates within organizations.
 
 ## Summit Events
 - [Web Summit](https://websummit.net/) - It's been called 'the best technology conference on the planet'.

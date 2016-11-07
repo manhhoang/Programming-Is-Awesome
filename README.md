@@ -209,6 +209,7 @@ Any **recommendations** and **suggestions** are welcomed.
 
 ### Time Series
 - [Riak TS](http://basho.com/products/riak-ts/) - Riak® TS is the only enterprise-grade NoSQL time series database optimized specifically for IoT and Time Series data.
+- [InfluxDB](https://www.influxdata.com/) - InfluxDB is an open-source time series database developed by InfluxData as part of their time series platform. It is written in Go and optimized for fast. 
 
 ## Data Warehouse
 - [Redshift](https://aws.amazon.com/documentation/redshift/) - Amazon Redshift is a fast, fully managed, petabyte-scale data warehouse service.

@@ -53,6 +53,7 @@ Any **recommendations** and **suggestions** are welcomed.
     - [IoT OS](#iot-os)
 - [UML Tools](#uml-tools)     
 - [Summit Events](#summit-events)
+- [Algorithms](#algorithms)
 
 ***********
 
@@ -344,6 +345,9 @@ Any **recommendations** and **suggestions** are welcomed.
 - [Strata Hadoop World](http://www.stratahadoopworld.com/) - Strata Hadoop World. Where big data, cutting-edge data science, and new business fundamentals intersect–and merge.
 - [Spark Summit](https://spark-summit.org/) - Organized by Databricks, Spark Summit is the premier big data conference series dedicated to bring the Apache Spark community together across the globe.
 - [Reactive Summit](https://www.reactivesummit.org/) - Organized by Lightbend.
+
+## Algorithms
+- [Backtracking](https://en.wikipedia.org/wiki/Backtracking) - Backtracking is a general algorithm for finding all (or some) solutions to some computational problems. 
 
 **[⬆ back to top](#table-of-contents)**
 

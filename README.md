@@ -225,6 +225,11 @@ Any **recommendations** and **suggestions** are welcomed.
 
 ## Distributed File System
 - [DSEFS](https://docs.datastax.com/en/latest-dse/datastax_enterprise/ana/aboutDsefs.html) - DSEFS (DataStax Enterprise file system) is a new distributed file system within DataStax Enterprise.
+- [HDFS](http://hortonworks.com/apache/hdfs/) - HDFS is a Java-based file system that provides scalable and reliable data storage, and it was designed to span large clusters of commodity servers.
+- [GlusterFS](https://www.gluster.org/) - GlusterFS is a scalable network filesystem. Using common off-the-shelf hardware, you can create large, distributed storage solutions for media streaming.
+- [Amazon EFS](https://aws.amazon.com/efs/) - Shared file storage for the AWS cloud, supporting a file system interface and file system semantics for thousands of Amazon EC2 instances. 
+- [Ceph FS](http://docs.ceph.com/docs/jewel/cephfs/) - The Ceph Filesystem (Ceph FS) is a POSIX-compliant filesystem that uses a Ceph Storage Cluster to store its data.
+- [Alluxio](http://www.alluxio.org/) - Alluxio, formerly Tachyon, enables any application to interact with any data from any storage system at memory speed.
 
 ## BI Tools
 - [Tableau](https://www.tableau.com/) - Tableau is data visualization software.

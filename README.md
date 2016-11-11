@@ -45,6 +45,7 @@ Any **recommendations** and **suggestions** are welcomed.
     - [SQL Database Version Manager](#sql-database-version-manager)
     - [SMTP Server](#smtp-server)
     - [Profiling Tools](#profiling-tools)
+    - [Distributed Job Scheduler](#distributed-job-scheduler)
 - [DevOps](#devops)
 - [Security](#security)
 - [Mobile Frameworks](#mobile-frameworks)
@@ -309,7 +310,11 @@ Any **recommendations** and **suggestions** are welcomed.
 - [Apache James](https://james.apache.org/) - The Apache Java Mail Server is a 100% pure Java SMTP, IMAP4 and POP3 Mail server designed to be a complete and portable enterprise mail. 
 
 ### Profiling Tools
-- [JProfiler](https://www.ej-technologies.com/products/jprofiler/overview.html) - JProfiler is the leading Java Profiler for profiling on the JVM. 
+- [JProfiler](https://www.ej-technologies.com/products/jprofiler/overview.html) - JProfiler is the leading Java Profiler for profiling on the JVM.
+ 
+### Distributed Job Scheduler
+- [Quartz](http://www.quartz-scheduler.org/) - Quartz is a job scheduling library that can be integrated into a wide variety of Java applications.
+- [Celery](http://www.celeryproject.org/) - Celery is a simple, flexible, and reliable distributed system to process vast amounts of messages.
 
 ## DevOps
 - [Docker](https://www.docker.com/) - Docker is an open platform for developers and sysadmins to build, ship, and run distributed applications, whether on laptops, data center VMs, or the cloud.

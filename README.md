@@ -222,6 +222,9 @@ Any **recommendations** and **suggestions** are welcomed.
 ## Storage
 - [Amazon Simple Storage Service (S3)](https://aws.amazon.com/s3/) - Amazon Simple Storage Service (Amazon S3), provides developers and IT teams with secure, durable, highly-scalable cloud storage.
 - [Riak S2](http://basho.com/products/riak-s2/) - Riak® S2 is a highly available, scalable, easy-to-operate object storage software solution that’s optimized for holding videos, images, and other files.
+- [Ceph Storage](http://ceph.com/ceph-storage/) - Ceph is a distributed object store and file system designed to provide excellent storage.
+- [Nimbus.io](https://github.com/SpiderOak/nimbus.io) - Nimbus.io is both a commercially available cloud storage service AND a free software project.
+- [OpenStack Swift](http://docs.openstack.org/developer/swift/) - Swift is a highly available, distributed, eventually consistent object/blob store.
 
 ## Distributed File System
 - [DSEFS](https://docs.datastax.com/en/latest-dse/datastax_enterprise/ana/aboutDsefs.html) - DSEFS (DataStax Enterprise file system) is a new distributed file system within DataStax Enterprise.

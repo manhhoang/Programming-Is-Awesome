@@ -6,6 +6,7 @@ Any **recommendations** and **suggestions** are welcomed.
 
 ## Table of Contents
 
+- [Programming Languages](#programming-languages)
 - [Architecture](#architecture)
 - [Cloud Providers](#cloud-providers)
 - [Big Data](#big-data)
@@ -58,6 +59,13 @@ Any **recommendations** and **suggestions** are welcomed.
 - [Algorithms](#algorithms)
 
 ***********
+
+## Programming Languages
+- [Java](https://www.java.com) - Java is a general-purpose computer programming language that is concurrent, class-based, object-oriented.
+- [Scala](http://www.scala-lang.org/) - General purpose language; multiparadigm (object-oriented, functional, concurrent elements); statically typed, type-safe; focus: Web services.
+- [Go](https://golang.org/) - Go is an open source programming language that makes it easy to build simple, reliable, and efficient software.
+- [Python](https://www.python.org/) - Python is a widely used high-level, general-purpose, interpreted, dynamic programming language.
+- [JavaScript](https://en.wikipedia.org/wiki/JavaScript) - JavaScript is a high-level, dynamic, untyped, and interpreted programming language. It has been standardized in the ECMAScript language specification.
 
 ## Architecture
 - [Microservices](https://en.wikipedia.org/wiki/Microservices) - Microservices is a specialisation of and implementation approach for distributed architectures used to build flexible, independently deployable software systems.
@@ -357,6 +365,7 @@ Any **recommendations** and **suggestions** are welcomed.
 - [Enterprise Architect](http://www.sparxsystems.com/) - Enterprise architects are practitioners of enterprise architecture; an enterprise strategic management discipline that operates within organizations.
 
 ## Summit Events
+- [AWS re:Invent](https://reinvent.awsevents.com/) - At AWS re:Invent, connect with peers and cloud experts, collaborate at our bootcamps, and learn how AWS can improve productivity, security.
 - [Web Summit](https://websummit.net/) - It's been called 'the best technology conference on the planet'.
 - [AWS Summit](https://aws.amazon.com/summits/) - Whether you are new to the cloud or an experienced user, you will learn something new at an AWS Summit.
 - [Gamescom](http://www.gamescom-cologne.com/) - Gamescom (stylized as gamescom) is a trade fair for video games held annually at the Koelnmesse in Cologne, North Rhine-Westphalia, Germany.
@@ -366,7 +375,8 @@ Any **recommendations** and **suggestions** are welcomed.
 - [Reactive Summit](https://www.reactivesummit.org/) - Organized by Lightbend.
 
 ## Algorithms
-- [Backtracking](https://en.wikipedia.org/wiki/Backtracking) - Backtracking is a general algorithm for finding all (or some) solutions to some computational problems. 
+- [Backtracking](https://en.wikipedia.org/wiki/Backtracking) - Backtracking is a general algorithm for finding all (or some) solutions to some computational problems.
+- [Two Pointer](https://tp-iiita.quora.com/The-Two-Pointer-Algorithm) -  The legendary two pointer approach is one such technique which is less of a talk and more of a discussion on the problems. 
 
 **[⬆ back to top](#table-of-contents)**
 

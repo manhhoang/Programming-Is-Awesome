@@ -9,32 +9,8 @@ Any **recommendations** and **suggestions** are welcomed.
 - [Programming Languages](#programming-languages)
 - [Algorithms](#algorithms)
 - [Architecture](#architecture)
+- [Parallel Programming](#parallel-programming)
 - [Cloud Providers](#cloud-providers)
-- [Big Data](#big-data)
-    - [Big Data Distributor](#big-data-distributor)
-    - [Big Data Ingestion Layer](#big-data-ingestion-layer)
-    - [Big Data Speed Layer](#big-data-speed-layer)
-    - [Big Data Batch Layer](#big-data-batch-layer)
-    - [Resource Manager](#resource-manager)
-    - [Distributed SQL Query Engine](#distributed-sql-query-engine)
-    - [Machine Learning](#machine-learning)
-    - [Machine Learning Tools](#machine-learning-tools)
-    - [Notebook](#notebook)
-- [Database](#database)
-    - [Column Family](#column-family)
-    - [Document Oriented](#document-oriented)
-    - [Search DB](#Search-db)
-    - [Graph DB](#graph-db)
-    - [NewSQL](#newsql)
-    - [In-memory DB](#in-memory-db)
-    - [Event Store](#event-store)
-    - [Embedded Database](#embedded-database)
-    - [Time Series](#time-series)    
-- [Data Warehouse](#data-warehouse)
-- [Storage](#storage)
-- [Distributed File System](#distributed-file-system)
-- [BI Tools](#bi-tools)
-- [Parallel Programming](#parallel-programming)   
 - [Frameworks & Tools](#frameworks--tools)
     - [Reactive Framework](#reactive-framework)
     - [Micoservices Framework](#micoservices-framework)    
@@ -48,6 +24,30 @@ Any **recommendations** and **suggestions** are welcomed.
     - [SMTP Server](#smtp-server)
     - [Profiling Tools](#profiling-tools)
     - [Distributed Job Scheduler](#distributed-job-scheduler)
+- [Database](#database)
+    - [Column Family](#column-family)
+    - [Document Oriented](#document-oriented)
+    - [Search DB](#Search-db)
+    - [Graph DB](#graph-db)
+    - [NewSQL](#newsql)
+    - [In-memory DB](#in-memory-db)
+    - [Event Store](#event-store)
+    - [Embedded Database](#embedded-database)
+    - [Time Series](#time-series)
+- [Data Warehouse](#data-warehouse)
+- [Storage](#storage)
+- [Big Data](#big-data)
+    - [Big Data Distributor](#big-data-distributor)
+    - [Big Data Ingestion Layer](#big-data-ingestion-layer)
+    - [Big Data Speed Layer](#big-data-speed-layer)
+    - [Big Data Batch Layer](#big-data-batch-layer)
+    - [Resource Manager](#resource-manager)
+    - [Distributed SQL Query Engine](#distributed-sql-query-engine)
+    - [Machine Learning](#machine-learning)
+    - [Machine Learning Tools](#machine-learning-tools)
+    - [Notebook](#notebook)    
+- [Distributed File System](#distributed-file-system)
+- [BI Tools](#bi-tools)   
 - [DevOps](#devops)
 - [Security](#security)
 - [Mobile Frameworks](#mobile-frameworks)
@@ -82,6 +82,10 @@ Any **recommendations** and **suggestions** are welcomed.
 - [Event Sourcing](http://microservices.io/patterns/data/event-sourcing.html) - Event Sourcing persists each business entity as a sequence of events.
 - [Materialized View](https://en.wikipedia.org/wiki/Materialized_view) - A materialized view is a database object that contains the results of a query.
 
+## Parallel Programming
+- [Actor Model](https://en.wikipedia.org/wiki/Actor_model) - The actor model in computer science is a mathematical model of concurrent computation that treats "actors" as the universal primitives of concurrent computation.
+- [Communicating sequential processes](https://en.wikipedia.org/wiki/Communicating_sequential_processes) - Communicating sequential processes (CSP) is a formal language for describing patterns of interaction in concurrent systems. It is a member of the family of mathematical theories of concurrency known as process algebras, or process calculi, based on message passing via channels.
+
 ## Cloud Providers
 - [Amazon Web Services (AWS)](https://aws.amazon.com/) - Amazon Web Services offers reliable, scalable, and inexpensive cloud computing services. Free to join, pay only for what you use.
 - [Microsoft Azure](https://azure.microsoft.com/) - Microsoft Azure is an open, flexible, enterprise-grade cloud computing platform.
@@ -95,74 +99,73 @@ Any **recommendations** and **suggestions** are welcomed.
 - [SAP HANA Cloud Platform](https://hcp.sap.com/index.html) - SAP HANA Cloud Platform is an open platform-as-a-service that provides unique in-memory database and application services.
 - [Oracle Cloud](https://cloud.oracle.com/) - Oracle Cloud Platform as a Service (PaaS) helps enterprise IT and independent software vendor (ISV) developers rapidly build and deploy rich applications.
 
-## Big Data
+## Frameworks & Tools
 
-### Big Data Distributor
-- [Amazon EMR](https://aws.amazon.com/emr/) - Amazon EMR simplifies big data processing, providing a managed Hadoop framework. 
-- [Cloudera CDH](http://www.cloudera.com/) - CDH is Cloudera's software distribution containing Apache Hadoop and related projects. All components are 100% open source.
-- [Hortonworks HDP](http://hortonworks.com/) - Hortonworks' product named Hortonworks Data Platform (HDP) includes Apache Hadoop and is used for storing, processing, and analyzing large volumes of data.
-- [IBM BigInsights](http://www.ibm.com/analytics/us/en/technology/biginsights/) - IBM provides a complete solution of Hadoop, including Spark, to scale analytics quickly and easily. Available on-premises, on-cloud, and integrated with other systems in use today.
-- [MapR](https://www.mapr.com/) - The MapR Converged Data Platform is the industry's only platform to integrate the enormous power of Hadoop and Spark with global event streaming, real-time.
-- [Pivotal Big Data Suite](https://pivotal.io/big-data/pivotal-big-data-suite) - Pivotal Big Data Suite provides the flexibility to choose and adopt proven, open source, scale-out databases, including: Pivotal Greenplum, Pivotal HDB.
-- [Databricks](https://databricks.com/) - Founded by the creators of Apache Spark, Databricks makes big data analytics simple through an integrated workspace hosted as a service in the cloud.
-- [Concurrent](https://www.concurrent.com/) - One of the distributor in Hadoop world. 
+### Reactive Framework
+- [Akka](http://akka.io/) - Akka is a toolkit and runtime for building highly concurrent, distributed, and resilient message-driven applications on the JVM.
+- [Reactor](http://projectreactor.io/) - Reactor is a fully non-blocking foundation with efficient demand management.
+- [ReactiveX](http://reactivex.io/) - ReactiveX is a combination of the best ideas from the Observer pattern, the Iterator pattern, and functional programming.
+- [Erlang](https://www.erlang.org/) - Erlang is a programming language used to build massively scalable soft real-time systems with requirements on high availability.
+- [Goroutines](https://gobyexample.com/goroutines) - A goroutine is a function that is capable of running concurrently with other functions.
+- [Vert.x](http://vertx.io/) - Vert.x is a tool-kit for building reactive applications on the JVM.
+- [Play Framework](https://www.playframework.com/) - Play Framework makes it easy to build web applications with Java & Scala. Play is based on a lightweight, stateless, web-friendly architecture. Built on Akka.
+- [Spring Web Reactive](http://docs.spring.io/spring-framework/docs/5.0.0.M1/spring-framework-reference/html/web-reactive.html) - Reactive programming is about non-blocking applications that are asynchronous and event-driven and require a small number of threads to scale.
 
-### Big Data Ingestion Layer
-- [Apache Kafka](https://kafka.apache.org/) - Kafka™ is used for building real-time data pipelines and streaming apps. 
-- [Apache Flume](https://flume.apache.org/) - Flume is a distributed, reliable, and available service for efficiently collecting, aggregating, and moving large amounts of log data.
-- [RabbitMQ](https://www.rabbitmq.com/) - RabbitMQ is open source message broker software that implements the Advanced Message Queuing Protocol (AMQP).
-- [Mosquitto](https://mosquitto.org/) - Mosquitto is an open source message broker that implements the MQTT (MQ Telemetry Transport) protocol v3.1.
-- [Logstash](https://www.elastic.co/products/logstash) - Logstash is an open source, server-side data processing pipeline that ingests data from a multitude of sources simultaneously.
-- [Spring XD](http://projects.spring.io/spring-xd/) - Spring XD is a unified, distributed, and extensible service for data ingestion, real time analytics, batch processing, and data export.
+### Micoservices Framework
+- [Lagom](http://www.lagomframework.com/) - Lagom is a framework for creating reactive microservice-based systems.
+- [Play Framework](https://www.playframework.com/) - Play Framework makes it easy to build web applications with Java & Scala. Play is based on a lightweight, stateless, web-friendly architecture. Built on Akka.
+- [Spring Boot](https://projects.spring.io/spring-boot/) - Spring Boot makes it easy to create stand-alone, production-grade Spring based Applications that you can "just run".
+- [Dropwizard](http://www.dropwizard.io/) - Dropwizard is a Java framework for developing ops-friendly, high-performance, RESTful web services.
+- [Sparkjava](http://sparkjava.com/) - Spark Framework - Create web applications in Java rapidly. Spark is a micro web framework that lets you focus on writing your code, not boilerplate code.
 
-### Big Data Speed Layer
-- [Confluent Platform](http://www.confluent.io/) - The free, open-source streaming platform based on Apache Kafka. Confluent Platform is the best way to get started with real-time data streams.
-- [Apache Storm](http://storm.apache.org/) - Apache Storm is a free and open source distributed realtime computation system.
-- [Apache Spark Streaming](http://spark.apache.org/streaming/) - Spark Streaming brings Apache Spark's language-integrated API to stream processing, letting you write streaming jobs the same way you write batch jobs.
-- [Apache Flume Interceptor](https://flume.apache.org/) - Flume is a distributed, reliable, and available service for efficiently collecting, aggregating, and moving large amounts of log data.
-- [Apache Samza](http://samza.apache.org/) - Apache Samza is a distributed stream processing framework. It uses Apache Kafka for messaging, and Apache Hadoop YARN to provide fault tolerance.
-- [Apache Gearpump](https://gearpump.apache.org/) - Apache Gearpump is a real-time big data streaming engine.
-- [Spring XD](http://projects.spring.io/spring-xd/) - Spring XD is a unified, distributed, and extensible service for data ingestion, real time analytics, batch processing, and data export.
+### Monitoring
+- [Ganglia](http://ganglia.info/) - Ganglia is a scalable distributed monitoring system for high-performance computing systems such as clusters and Grids.
+- [Nagios](https://www.nagios.org/) - Nagios provides enterprise-class Open Source IT monitoring, network monitoring, server and applications monitoring.
+- [Datadog](https://www.datadoghq.com/) - See metrics from all of your apps, tools & services in one place with Datadog's cloud monitoring as a service solution.
+- [New Relic](https://newrelic.com/) - A software analytics tool suite used by developers, ops, and software companies to understand how your applications are performing in development.
+- [Perfino](https://www.ej-technologies.com/products/perfino/overview.html) - Perfino is a zero-overhead APM solution for monitoring Java application servers.
+- [Sensu](https://sensuapp.org/) - Monitor servers, services, application health, and business KPIs.
+- [OverOps](https://www.overops.com/) - Know why Java code fails in production.
 
-### Big Data Batch Layer
-- [Apache Spark](http://spark.apache.org/) - Apache Spark™ is a fast and general engine for large-scale data processing.
-- [Apache MapReduce](http://hadoop.apache.org/) - The Apache Hadoop MapReduce software library is a framework that allows for the distributed processing of large data sets across clusters of computers using simple programming models.
-- [Spring XD](http://projects.spring.io/spring-xd/) - Spring XD is a unified, distributed, and extensible service for data ingestion, real time analytics, batch processing, and data export.
-- [Apache Flink](https://flink.apache.org/) - Apache Flink® is an open source platform for distributed stream and batch data.
+### Load Balancer
+- [HAProxy](http://www.haproxy.org/) - The Reliable, High Performance TCP/HTTP Load Balancer.
 
-### Resource Manager
-- [Apache Mesos](http://mesos.apache.org/) - Apache Mesos abstracts CPU, memory, storage, and other compute resources away from machines (physical or virtual), enabling fault-tolerant and elastic distributed systems to easily be built and run effectively.
-- [Mesosphere](https://mesosphere.com/) - Mesosphere Enterprise DC/OS is an enterprise grade datacenter-scale operating system, providing a single platform for running containers, big data.
-- [Apache Yarn](http://hadoop.apache.org/) - The Apache Hadoop Yarn software library is a framework that allows for the distributed processing of large data sets across clusters of computers using simple programming models.
+### API Gateway
+- [Tyk](https://tyk.io/) - Tyk is an open source API Gateway that is fast, scalable and modern.
+- [WSO2](http://wso2.com/) - WSO2 provides the open source enterprise platform that helps to build, integrate, analyse and manage your APIs, applications, and Web services.
 
-### Distributed SQL Query Engine
-- [Apache Impala](http://impala.apache.org/) - Apache Impala is the open source, native analytic database for Apache Hadoop. Impala is shipped by Cloudera, MapR, Oracle, and Amazon.
-- [Apache Hive](https://hive.apache.org/) - Apache Hive is a data warehouse infrastructure built on top of Hadoop for providing data summarization, query, and analysis.
-- [Spark SQL](http://spark.apache.org/sql/) - Spark SQL is a Spark module for structured data processing.
-- [Apache Drill](https://drill.apache.org/) - Drill supports a variety of NoSQL databases and file systems, including HBase, MongoDB, MapR-DB, HDFS, MapR-FS, Amazon S3, Azure Blob Storage.
-- [Presto](https://prestodb.io/) - Presto is an open source distributed SQL query engine for running interactive analytic queries against data sources of all sizes ranging.
-- [Hive on Apache Tez](https://tez.apache.org/) - The Apache Tez™ project is aimed at building an application framework which allows for a complex directed-acyclic-graph of tasks for processing data.
-- [Apache Phoenix](http://phoenix.apache.org/) - Apache Phoenix takes your SQL query, compiles it into a series of HBase scans.
-- [Apache HAWQ](http://hawq.incubator.apache.org/) - Apache HAWQ (incubating) combines exceptional MPP-based analytics performance, robust ANSI SQL compliance, Hadoop ecosystem.
-- [IBM Big SQL](http://www.ibm.com/analytics/us/en/technology/big-sql/) - IBM Big SQL is a data warehouse system for Hadoop that you use to summarize, query, and analyze data.
-- [Apache Kylin](http://kylin.apache.org/) - Apache Kylin™ is an open source Distributed Analytics Engine.
+### Testing Tools
+- [JUnit](http://junit.org/) - JUnit is a simple framework to write repeatable tests.
+- [Mockito](http://site.mockito.org/) - A mocking framework for unit tests written in Java.
+- [TestNG](http://testng.org/) - TestNG is a testing framework developed in the lines of JUnit and NUnit.
+- [DbUnit](http://dbunit.sourceforge.net/) - A JUnit extension that puts a database into a known state between test runs.
+- [Selenium](http://docs.seleniumhq.org/) - Selenium is a suite of tools to automate web browsers across many platforms.
+- [Cucumber](https://cucumber.io/) - Cucumber is a software tool that computer programmers use for testing other software.
+- [SoapUI](https://www.soapui.org/) - SoapUI, is the world leading Open Source Functional Testing tool for API Testing.
+- [LoadUI](https://www.loadui.org/) - LoadUI, a Performance Load Testing tool for APIs & Web Services.
+- [Secure Pro](https://smartbear.com/product/ready-api/secure/overview/) - Simulate attacks against your REST and SOAP services so you know they're safe. Build a Trusted API with Secure Pro, Based on The world's Most Trusted API.
 
-### Machine Learning
-- [Apache Mahout](https://mahout.apache.org/) - The Apache Mahout™ project's goal is to build an environment for quickly creating scalable performant machine learning applications.
-- [Spark MLlib](http://spark.apache.org/mllib/) - MLlib is Apache Spark's scalable machine learning library.
-- [H2O](http://www.h2o.ai/) - H2O is open-source software for big-data analysis.
-- [Apache MADlib](https://madlib.incubator.apache.org/) - Apache MADlib (incubating): Big Data Machine Learning in SQL.
-- [Weka](http://www.cs.waikato.ac.nz/ml/weka/) - Waikato Environment for Knowledge Analysis (Weka) is a popular suite of machine learning software written in Java, developed at the University of Waikato.
-- [Scikit Learn](http://scikit-learn.org/stable/) - An open source Python library that implements a range of machine learning, preprocessing, cross-validation and visualization algorithms.
-- [Apache SystemML](https://systemml.apache.org/) - Apache SystemML provides an optimal workplace for Machine Learning using big data.
+### Code Quality Analyzer
+- [SonarQube](http://www.sonarqube.org/) - SonarQube is an open platform to manage code quality.
+- [Gerrit](https://www.gerritcodereview.com/) - Gerrit provides web based code review and repository management for the Git version control system.
+- [PMD](https://pmd.github.io/) - PMD is a source code analyzer.
 
-### Machine Learning Tools
-- [PyData](http://pydata.org/) - PyData is a gathering of users and developers of data analysis tools in Python.
+### Code Security Analyzer
+- [Checkmarx](https://www.checkmarx.com/) - Checkmarx is a provider of state-of-the-art application security solution: static code analysis software, seamlessly integrated into development process.
 
-### Notebook
-- [Jupyter](http://jupyter.org/) - Open source, interactive data science and scientific computing across over 40 programming languages.
-- [Zeppelin](https://zeppelin.apache.org/) - Apache Zeppelin interpreter concept allows any language/data-processing-backend to be plugged into Zeppelin.
-- [RStudio](https://www.rstudio.com/) - A powerful and productive user interface for R.
+### SQL Database Version Manager
+- [Flyway](https://flywaydb.org/) - Flyway lets you regain control of your database migrations with pleasure and plain sql.
+- [Liquibase](http://www.liquibase.org/) - Liquibase is an open source database-independent library for tracking, managing and applying database schema changes. 
+
+### SMTP Server
+- [Apache James](https://james.apache.org/) - The Apache Java Mail Server is a 100% pure Java SMTP, IMAP4 and POP3 Mail server designed to be a complete and portable enterprise mail. 
+
+### Profiling Tools
+- [JProfiler](https://www.ej-technologies.com/products/jprofiler/overview.html) - JProfiler is the leading Java Profiler for profiling on the JVM.
+ 
+### Distributed Job Scheduler
+- [Quartz](http://www.quartz-scheduler.org/) - Quartz is a job scheduling library that can be integrated into a wide variety of Java applications.
+- [Celery](http://www.celeryproject.org/) - Celery is a simple, flexible, and reliable distributed system to process vast amounts of messages.
 
 ## Database
 
@@ -242,6 +245,75 @@ Any **recommendations** and **suggestions** are welcomed.
 - [Nimbus.io](https://github.com/SpiderOak/nimbus.io) - Nimbus.io is both a commercially available cloud storage service AND a free software project.
 - [OpenStack Swift](http://docs.openstack.org/developer/swift/) - Swift is a highly available, distributed, eventually consistent object/blob store.
 
+## Big Data
+
+### Big Data Distributor
+- [Amazon EMR](https://aws.amazon.com/emr/) - Amazon EMR simplifies big data processing, providing a managed Hadoop framework. 
+- [Cloudera CDH](http://www.cloudera.com/) - CDH is Cloudera's software distribution containing Apache Hadoop and related projects. All components are 100% open source.
+- [Hortonworks HDP](http://hortonworks.com/) - Hortonworks' product named Hortonworks Data Platform (HDP) includes Apache Hadoop and is used for storing, processing, and analyzing large volumes of data.
+- [IBM BigInsights](http://www.ibm.com/analytics/us/en/technology/biginsights/) - IBM provides a complete solution of Hadoop, including Spark, to scale analytics quickly and easily. Available on-premises, on-cloud, and integrated with other systems in use today.
+- [MapR](https://www.mapr.com/) - The MapR Converged Data Platform is the industry's only platform to integrate the enormous power of Hadoop and Spark with global event streaming, real-time.
+- [Pivotal Big Data Suite](https://pivotal.io/big-data/pivotal-big-data-suite) - Pivotal Big Data Suite provides the flexibility to choose and adopt proven, open source, scale-out databases, including: Pivotal Greenplum, Pivotal HDB.
+- [Databricks](https://databricks.com/) - Founded by the creators of Apache Spark, Databricks makes big data analytics simple through an integrated workspace hosted as a service in the cloud.
+- [Concurrent](https://www.concurrent.com/) - One of the distributor in Hadoop world. 
+
+### Big Data Ingestion Layer
+- [Apache Kafka](https://kafka.apache.org/) - Kafka™ is used for building real-time data pipelines and streaming apps. 
+- [Apache Flume](https://flume.apache.org/) - Flume is a distributed, reliable, and available service for efficiently collecting, aggregating, and moving large amounts of log data.
+- [RabbitMQ](https://www.rabbitmq.com/) - RabbitMQ is open source message broker software that implements the Advanced Message Queuing Protocol (AMQP).
+- [Mosquitto](https://mosquitto.org/) - Mosquitto is an open source message broker that implements the MQTT (MQ Telemetry Transport) protocol v3.1.
+- [Logstash](https://www.elastic.co/products/logstash) - Logstash is an open source, server-side data processing pipeline that ingests data from a multitude of sources simultaneously.
+- [Spring XD](http://projects.spring.io/spring-xd/) - Spring XD is a unified, distributed, and extensible service for data ingestion, real time analytics, batch processing, and data export.
+
+### Big Data Speed Layer
+- [Confluent Platform](http://www.confluent.io/) - The free, open-source streaming platform based on Apache Kafka. Confluent Platform is the best way to get started with real-time data streams.
+- [Apache Storm](http://storm.apache.org/) - Apache Storm is a free and open source distributed realtime computation system.
+- [Apache Spark Streaming](http://spark.apache.org/streaming/) - Spark Streaming brings Apache Spark's language-integrated API to stream processing, letting you write streaming jobs the same way you write batch jobs.
+- [Apache Flume Interceptor](https://flume.apache.org/) - Flume is a distributed, reliable, and available service for efficiently collecting, aggregating, and moving large amounts of log data.
+- [Apache Samza](http://samza.apache.org/) - Apache Samza is a distributed stream processing framework. It uses Apache Kafka for messaging, and Apache Hadoop YARN to provide fault tolerance.
+- [Apache Gearpump](https://gearpump.apache.org/) - Apache Gearpump is a real-time big data streaming engine.
+- [Spring XD](http://projects.spring.io/spring-xd/) - Spring XD is a unified, distributed, and extensible service for data ingestion, real time analytics, batch processing, and data export.
+
+### Big Data Batch Layer
+- [Apache Spark](http://spark.apache.org/) - Apache Spark™ is a fast and general engine for large-scale data processing.
+- [Apache MapReduce](http://hadoop.apache.org/) - The Apache Hadoop MapReduce software library is a framework that allows for the distributed processing of large data sets across clusters of computers using simple programming models.
+- [Spring XD](http://projects.spring.io/spring-xd/) - Spring XD is a unified, distributed, and extensible service for data ingestion, real time analytics, batch processing, and data export.
+- [Apache Flink](https://flink.apache.org/) - Apache Flink® is an open source platform for distributed stream and batch data.
+
+### Resource Manager
+- [Apache Mesos](http://mesos.apache.org/) - Apache Mesos abstracts CPU, memory, storage, and other compute resources away from machines (physical or virtual), enabling fault-tolerant and elastic distributed systems to easily be built and run effectively.
+- [Mesosphere](https://mesosphere.com/) - Mesosphere Enterprise DC/OS is an enterprise grade datacenter-scale operating system, providing a single platform for running containers, big data.
+- [Apache Yarn](http://hadoop.apache.org/) - The Apache Hadoop Yarn software library is a framework that allows for the distributed processing of large data sets across clusters of computers using simple programming models.
+
+### Distributed SQL Query Engine
+- [Apache Impala](http://impala.apache.org/) - Apache Impala is the open source, native analytic database for Apache Hadoop. Impala is shipped by Cloudera, MapR, Oracle, and Amazon.
+- [Apache Hive](https://hive.apache.org/) - Apache Hive is a data warehouse infrastructure built on top of Hadoop for providing data summarization, query, and analysis.
+- [Spark SQL](http://spark.apache.org/sql/) - Spark SQL is a Spark module for structured data processing.
+- [Apache Drill](https://drill.apache.org/) - Drill supports a variety of NoSQL databases and file systems, including HBase, MongoDB, MapR-DB, HDFS, MapR-FS, Amazon S3, Azure Blob Storage.
+- [Presto](https://prestodb.io/) - Presto is an open source distributed SQL query engine for running interactive analytic queries against data sources of all sizes ranging.
+- [Hive on Apache Tez](https://tez.apache.org/) - The Apache Tez™ project is aimed at building an application framework which allows for a complex directed-acyclic-graph of tasks for processing data.
+- [Apache Phoenix](http://phoenix.apache.org/) - Apache Phoenix takes your SQL query, compiles it into a series of HBase scans.
+- [Apache HAWQ](http://hawq.incubator.apache.org/) - Apache HAWQ (incubating) combines exceptional MPP-based analytics performance, robust ANSI SQL compliance, Hadoop ecosystem.
+- [IBM Big SQL](http://www.ibm.com/analytics/us/en/technology/big-sql/) - IBM Big SQL is a data warehouse system for Hadoop that you use to summarize, query, and analyze data.
+- [Apache Kylin](http://kylin.apache.org/) - Apache Kylin™ is an open source Distributed Analytics Engine.
+
+### Machine Learning
+- [Apache Mahout](https://mahout.apache.org/) - The Apache Mahout™ project's goal is to build an environment for quickly creating scalable performant machine learning applications.
+- [Spark MLlib](http://spark.apache.org/mllib/) - MLlib is Apache Spark's scalable machine learning library.
+- [H2O](http://www.h2o.ai/) - H2O is open-source software for big-data analysis.
+- [Apache MADlib](https://madlib.incubator.apache.org/) - Apache MADlib (incubating): Big Data Machine Learning in SQL.
+- [Weka](http://www.cs.waikato.ac.nz/ml/weka/) - Waikato Environment for Knowledge Analysis (Weka) is a popular suite of machine learning software written in Java, developed at the University of Waikato.
+- [Scikit Learn](http://scikit-learn.org/stable/) - An open source Python library that implements a range of machine learning, preprocessing, cross-validation and visualization algorithms.
+- [Apache SystemML](https://systemml.apache.org/) - Apache SystemML provides an optimal workplace for Machine Learning using big data.
+
+### Machine Learning Tools
+- [PyData](http://pydata.org/) - PyData is a gathering of users and developers of data analysis tools in Python.
+
+### Notebook
+- [Jupyter](http://jupyter.org/) - Open source, interactive data science and scientific computing across over 40 programming languages.
+- [Zeppelin](https://zeppelin.apache.org/) - Apache Zeppelin interpreter concept allows any language/data-processing-backend to be plugged into Zeppelin.
+- [RStudio](https://www.rstudio.com/) - A powerful and productive user interface for R.
+
 ## Distributed File System
 - [DSEFS](https://docs.datastax.com/en/latest-dse/datastax_enterprise/ana/aboutDsefs.html) - DSEFS (DataStax Enterprise file system) is a new distributed file system within DataStax Enterprise.
 - [HDFS](http://hortonworks.com/apache/hdfs/) - HDFS is a Java-based file system that provides scalable and reliable data storage, and it was designed to span large clusters of commodity servers.
@@ -258,78 +330,6 @@ Any **recommendations** and **suggestions** are welcomed.
 - [JasperReports®](http://community.jaspersoft.com/) - The JasperReports Library is the world's most popular open source reporting engine.
 - [SAS Visual Analytics](http://www.sas.com/en_us/software/business-intelligence/visual-analytics.html) - Robust reporting and mobile BI.
 - [IBM Watson Analytics](https://watson.analytics.ibmcloud.com/product) - Watson Analytics guides analysis with automated data visualization and discovery so you can uncover insights on your own.
-
-## Parallel Programming
-- [Actor Model](https://en.wikipedia.org/wiki/Actor_model) - The actor model in computer science is a mathematical model of concurrent computation that treats "actors" as the universal primitives of concurrent computation.
-- [Communicating sequential processes](https://en.wikipedia.org/wiki/Communicating_sequential_processes) - Communicating sequential processes (CSP) is a formal language for describing patterns of interaction in concurrent systems. It is a member of the family of mathematical theories of concurrency known as process algebras, or process calculi, based on message passing via channels.
-
-## Frameworks & Tools
-
-### Reactive Framework
-- [Akka](http://akka.io/) - Akka is a toolkit and runtime for building highly concurrent, distributed, and resilient message-driven applications on the JVM.
-- [Reactor](http://projectreactor.io/) - Reactor is a fully non-blocking foundation with efficient demand management.
-- [ReactiveX](http://reactivex.io/) - ReactiveX is a combination of the best ideas from the Observer pattern, the Iterator pattern, and functional programming.
-- [Erlang](https://www.erlang.org/) - Erlang is a programming language used to build massively scalable soft real-time systems with requirements on high availability.
-- [Goroutines](https://gobyexample.com/goroutines) - A goroutine is a function that is capable of running concurrently with other functions.
-- [Vert.x](http://vertx.io/) - Vert.x is a tool-kit for building reactive applications on the JVM.
-- [Play Framework](https://www.playframework.com/) - Play Framework makes it easy to build web applications with Java & Scala. Play is based on a lightweight, stateless, web-friendly architecture. Built on Akka.
-- [Spring Web Reactive](http://docs.spring.io/spring-framework/docs/5.0.0.M1/spring-framework-reference/html/web-reactive.html) - Reactive programming is about non-blocking applications that are asynchronous and event-driven and require a small number of threads to scale.
-
-### Micoservices Framework
-- [Lagom](http://www.lagomframework.com/) - Lagom is a framework for creating reactive microservice-based systems.
-- [Play Framework](https://www.playframework.com/) - Play Framework makes it easy to build web applications with Java & Scala. Play is based on a lightweight, stateless, web-friendly architecture. Built on Akka.
-- [Spring Boot](https://projects.spring.io/spring-boot/) - Spring Boot makes it easy to create stand-alone, production-grade Spring based Applications that you can "just run".
-- [Dropwizard](http://www.dropwizard.io/) - Dropwizard is a Java framework for developing ops-friendly, high-performance, RESTful web services.
-- [Sparkjava](http://sparkjava.com/) - Spark Framework - Create web applications in Java rapidly. Spark is a micro web framework that lets you focus on writing your code, not boilerplate code.
-
-### Monitoring
-- [Ganglia](http://ganglia.info/) - Ganglia is a scalable distributed monitoring system for high-performance computing systems such as clusters and Grids.
-- [Nagios](https://www.nagios.org/) - Nagios provides enterprise-class Open Source IT monitoring, network monitoring, server and applications monitoring.
-- [Datadog](https://www.datadoghq.com/) - See metrics from all of your apps, tools & services in one place with Datadog's cloud monitoring as a service solution.
-- [New Relic](https://newrelic.com/) - A software analytics tool suite used by developers, ops, and software companies to understand how your applications are performing in development.
-- [Perfino](https://www.ej-technologies.com/products/perfino/overview.html) - Perfino is a zero-overhead APM solution for monitoring Java application servers.
-- [Sensu](https://sensuapp.org/) - Monitor servers, services, application health, and business KPIs.
-- [OverOps](https://www.overops.com/) - Know why Java code fails in production.
-
-### Load Balancer
-- [HAProxy](http://www.haproxy.org/) - The Reliable, High Performance TCP/HTTP Load Balancer.
-
-### API Gateway
-- [Tyk](https://tyk.io/) - Tyk is an open source API Gateway that is fast, scalable and modern.
-- [WSO2](http://wso2.com/) - WSO2 provides the open source enterprise platform that helps to build, integrate, analyse and manage your APIs, applications, and Web services.
-
-### Testing Tools
-- [JUnit](http://junit.org/) - JUnit is a simple framework to write repeatable tests.
-- [Mockito](http://site.mockito.org/) - A mocking framework for unit tests written in Java.
-- [TestNG](http://testng.org/) - TestNG is a testing framework developed in the lines of JUnit and NUnit.
-- [DbUnit](http://dbunit.sourceforge.net/) - A JUnit extension that puts a database into a known state between test runs.
-- [Selenium](http://docs.seleniumhq.org/) - Selenium is a suite of tools to automate web browsers across many platforms.
-- [Cucumber](https://cucumber.io/) - Cucumber is a software tool that computer programmers use for testing other software.
-- [SoapUI](https://www.soapui.org/) - SoapUI, is the world leading Open Source Functional Testing tool for API Testing.
-- [LoadUI](https://www.loadui.org/) - LoadUI, a Performance Load Testing tool for APIs & Web Services.
-- [Secure Pro](https://smartbear.com/product/ready-api/secure/overview/) - Simulate attacks against your REST and SOAP services so you know they're safe. Build a Trusted API with Secure Pro, Based on The world's Most Trusted API.
-
-### Code Quality Analyzer
-- [SonarQube](http://www.sonarqube.org/) - SonarQube is an open platform to manage code quality.
-- [Gerrit](https://www.gerritcodereview.com/) - Gerrit provides web based code review and repository management for the Git version control system.
-- [PMD](https://pmd.github.io/) - PMD is a source code analyzer.
-
-### Code Security Analyzer
-- [Checkmarx](https://www.checkmarx.com/) - Checkmarx is a provider of state-of-the-art application security solution: static code analysis software, seamlessly integrated into development process.
-
-### SQL Database Version Manager
-- [Flyway](https://flywaydb.org/) - Flyway lets you regain control of your database migrations with pleasure and plain sql.
-- [Liquibase](http://www.liquibase.org/) - Liquibase is an open source database-independent library for tracking, managing and applying database schema changes. 
-
-### SMTP Server
-- [Apache James](https://james.apache.org/) - The Apache Java Mail Server is a 100% pure Java SMTP, IMAP4 and POP3 Mail server designed to be a complete and portable enterprise mail. 
-
-### Profiling Tools
-- [JProfiler](https://www.ej-technologies.com/products/jprofiler/overview.html) - JProfiler is the leading Java Profiler for profiling on the JVM.
- 
-### Distributed Job Scheduler
-- [Quartz](http://www.quartz-scheduler.org/) - Quartz is a job scheduling library that can be integrated into a wide variety of Java applications.
-- [Celery](http://www.celeryproject.org/) - Celery is a simple, flexible, and reliable distributed system to process vast amounts of messages.
 
 ## DevOps
 - [Docker](https://www.docker.com/) - Docker is an open platform for developers and sysadmins to build, ship, and run distributed applications, whether on laptops, data center VMs, or the cloud.

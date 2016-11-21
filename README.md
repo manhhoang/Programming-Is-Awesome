@@ -13,7 +13,7 @@ Any **recommendations** and **suggestions** are welcomed.
 - [Cloud Providers](#cloud-providers)
 - [Frameworks & Tools](#frameworks--tools)
     - [Reactive Framework](#reactive-framework)
-    - [Micoservices Framework](#micoservices-framework)    
+    - [Micoservices Framework](#micoservices-framework)     
     - [Monitoring](#monitoring)
     - [Load Balancer](#load-balancer)
     - [API Gateway](#api-gateway)
@@ -50,6 +50,7 @@ Any **recommendations** and **suggestions** are welcomed.
 - [BI Tools](#bi-tools)   
 - [DevOps](#devops)
 - [Security](#security)
+- [Web Frameworks](#web-frameworks)
 - [Mobile Frameworks](#mobile-frameworks)
 - [Game Engines](#game-engines)
 - [AI Tools](#ai-tools)
@@ -348,6 +349,10 @@ Any **recommendations** and **suggestions** are welcomed.
 - [MIT KDC](https://web.mit.edu/kerberos/krb5-devel/doc/admin/install_kdc.html) - Kerberos is a network authentication protocol. It is designed to provide strong authentication for client/server applications by using secret-key cryptography.
 - [OpenLDAP](http://www.openldap.org/) - OpenLDAP Software is an open source implementation of the Lightweight Directory Access Protocol.
 - [Active Directory](https://en.wikipedia.org/wiki/Active_Directory) - Active Directory (AD) is a directory service that Microsoft developed for Windows domain networks.
+
+## Web Frameworks
+- [ReactJS](https://facebook.github.io/react/) - Declarative. React makes it painless to create interactive UIs. Design simple views for each state in your application.
+- [AngularJS](https://angularjs.org/) - AngularJS is what HTML would have been, had it been designed for building web-apps. Declarative templates with data-binding, MVW, MVVM, MVC.
 
 ## Mobile Frameworks
 - [Xamarin](https://www.xamarin.com/) - Xamarin's mobile application development platform with native user interfaces enables sharing of code across all platforms with a single C# codebase.

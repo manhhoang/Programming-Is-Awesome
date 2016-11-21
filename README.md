@@ -117,6 +117,7 @@ Any **recommendations** and **suggestions** are welcomed.
 - [Spring Boot](https://projects.spring.io/spring-boot/) - Spring Boot makes it easy to create stand-alone, production-grade Spring based Applications that you can "just run".
 - [Dropwizard](http://www.dropwizard.io/) - Dropwizard is a Java framework for developing ops-friendly, high-performance, RESTful web services.
 - [Sparkjava](http://sparkjava.com/) - Spark Framework - Create web applications in Java rapidly. Spark is a micro web framework that lets you focus on writing your code, not boilerplate code.
+- [Gin](https://github.com/gin-gonic/gin) - Gin is a web framework written in Go (Golang). It features a martini-like API with much better performance, up to 40 times faster thanks to httprouter.
 
 ### Monitoring
 - [Ganglia](http://ganglia.info/) - Ganglia is a scalable distributed monitoring system for high-performance computing systems such as clusters and Grids.
@@ -308,6 +309,7 @@ Any **recommendations** and **suggestions** are welcomed.
 
 ### Machine Learning Tools
 - [PyData](http://pydata.org/) - PyData is a gathering of users and developers of data analysis tools in Python.
+- [R](https://www.r-project.org/) - R, also called GNU S, is a strongly functional language and environment to statistically explore data sets, make many graphical displays of data.
 
 ### Notebook
 - [Jupyter](http://jupyter.org/) - Open source, interactive data science and scientific computing across over 40 programming languages.

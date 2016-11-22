@@ -158,6 +158,7 @@ Any **recommendations** and **suggestions** are welcomed.
 ### SQL Database Version Manager
 - [Flyway](https://flywaydb.org/) - Flyway lets you regain control of your database migrations with pleasure and plain sql.
 - [Liquibase](http://www.liquibase.org/) - Liquibase is an open source database-independent library for tracking, managing and applying database schema changes. 
+- [RedGate](http://www.red-gate.com/) - Redgate's DLM(Database Lifecycle Management) solution helps you put in place a trusted, scalable and repeatable database change management process.
 
 ### SMTP Server
 - [Apache James](https://james.apache.org/) - The Apache Java Mail Server is a 100% pure Java SMTP, IMAP4 and POP3 Mail server designed to be a complete and portable enterprise mail. 

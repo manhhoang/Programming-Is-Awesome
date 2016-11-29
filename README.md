@@ -363,6 +363,8 @@ Any **recommendations** and **suggestions** are welcomed.
 ## Game Engines
 - [Unity3D](https://unity3d.com/) - Unity3D is a cross-platform game engine developed by Unity Technologies and used to develop video games for PC, consoles, mobile devices and websites.
 - [Unreal Engine](https://www.unrealengine.com) - Unreal Engine 4 is a suite of integrated tools for game developers to design and build games, simulations, and visualizations.
+- [Stingray](http://www.autodesk.com/products/stingray/overview) - Autodesk® Stingray is a modern game engine built on a powerful, data-driven core architecture that can produce visually stunning games.
+- [Lumberyard](https://aws.amazon.com/lumberyard/) - Amazon Lumberyard is a free, cross-platform, 3D game engine for you to create the highest-quality games, connect your games to the vast compute and storage. 
 
 ## AI Tools
 - [IBM Watson](http://www.ibm.com/watson/) - IBM Watson is a technology platform that uses natural language processing and machine learning to reveal insights from large amounts of unstructured data.

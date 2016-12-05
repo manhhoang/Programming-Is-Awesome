@@ -69,10 +69,10 @@ Any **recommendations** and **suggestions** are welcomed.
 - [JavaScript](https://en.wikipedia.org/wiki/JavaScript) - JavaScript is a high-level, dynamic, untyped, and interpreted programming language. It has been standardized in the ECMAScript language specification.
 
 ## Algorithms
+- [Two Pointer](https://tp-iiita.quora.com/The-Two-Pointer-Algorithm) -  The legendary two pointer approach is one such technique which is less of a talk and more of a discussion on the problems.
 - [Dynamic Programming](https://en.wikipedia.org/wiki/Dynamic_programming) - Dynamic programming (also known as dynamic optimization) is a method for solving a complex problem by breaking it down into a collection of simpler subproblems, solving each of those subproblems just once, and storing their solutions.
 - [Greedy](https://en.wikipedia.org/wiki/Greedy_algorithm) - Greedy algorithm is an algorithmic paradigm that follows the problem solving heuristic of making the locally optimal choice at each stage with the hope of finding a global optimum.
 - [Backtracking](https://en.wikipedia.org/wiki/Backtracking) - Backtracking is a general algorithm for finding all (or some) solutions to some computational problems.
-- [Two Pointer](https://tp-iiita.quora.com/The-Two-Pointer-Algorithm) -  The legendary two pointer approach is one such technique which is less of a talk and more of a discussion on the problems.
 - [Brute Force](http://faculty.simpson.edu/lydia.sinapova/www/cmsc250/LN250_Levitin/L05-BruteForce.htm) - Brute force is a straightforward approach to solve a problem based on the problem’s statement and definitions of the concepts involved.
 
 ## Architecture

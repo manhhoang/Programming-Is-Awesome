@@ -68,12 +68,16 @@ Any **recommendations** and **suggestions** are welcomed.
 - [Python](https://www.python.org/) - Python is a widely used high-level, general-purpose, interpreted, dynamic programming language.
 - [JavaScript](https://en.wikipedia.org/wiki/JavaScript) - JavaScript is a high-level, dynamic, untyped, and interpreted programming language. It has been standardized in the ECMAScript language specification.
 
+***********
+
 ## Algorithms
 - [Two Pointer](https://tp-iiita.quora.com/The-Two-Pointer-Algorithm) -  The legendary two pointer approach is one such technique which is less of a talk and more of a discussion on the problems.
 - [Dynamic Programming](https://en.wikipedia.org/wiki/Dynamic_programming) - Dynamic programming (also known as dynamic optimization) is a method for solving a complex problem by breaking it down into a collection of simpler subproblems, solving each of those subproblems just once, and storing their solutions.
 - [Greedy](https://en.wikipedia.org/wiki/Greedy_algorithm) - Greedy algorithm is an algorithmic paradigm that follows the problem solving heuristic of making the locally optimal choice at each stage with the hope of finding a global optimum.
 - [Backtracking](https://en.wikipedia.org/wiki/Backtracking) - Backtracking is a general algorithm for finding all (or some) solutions to some computational problems.
 - [Brute Force](http://faculty.simpson.edu/lydia.sinapova/www/cmsc250/LN250_Levitin/L05-BruteForce.htm) - Brute force is a straightforward approach to solve a problem based on the problem’s statement and definitions of the concepts involved.
+
+***********
 
 ## Architecture
 - [Microservices](https://en.wikipedia.org/wiki/Microservices) - Microservices is a specialisation of and implementation approach for distributed architectures used to build flexible, independently deployable software systems.
@@ -83,9 +87,13 @@ Any **recommendations** and **suggestions** are welcomed.
 - [Event Sourcing](http://microservices.io/patterns/data/event-sourcing.html) - Event Sourcing persists each business entity as a sequence of events.
 - [Materialized View](https://en.wikipedia.org/wiki/Materialized_view) - A materialized view is a database object that contains the results of a query.
 
+***********
+
 ## Parallel Programming
 - [Actor Model](https://en.wikipedia.org/wiki/Actor_model) - The actor model in computer science is a mathematical model of concurrent computation that treats "actors" as the universal primitives of concurrent computation.
 - [Communicating sequential processes](https://en.wikipedia.org/wiki/Communicating_sequential_processes) - Communicating sequential processes (CSP) is a formal language for describing patterns of interaction in concurrent systems. It is a member of the family of mathematical theories of concurrency known as process algebras, or process calculi, based on message passing via channels.
+
+***********
 
 ## Cloud Providers
 - [Amazon Web Services (AWS)](https://aws.amazon.com/) - Amazon Web Services offers reliable, scalable, and inexpensive cloud computing services. Free to join, pay only for what you use.
@@ -99,6 +107,8 @@ Any **recommendations** and **suggestions** are welcomed.
 - [Heroku](https://www.heroku.com/) - Heroku is a platform as a service (PaaS) that enables developers to build, run, and operate applications entirely in the cloud.
 - [SAP HANA Cloud Platform](https://hcp.sap.com/index.html) - SAP HANA Cloud Platform is an open platform-as-a-service that provides unique in-memory database and application services.
 - [Oracle Cloud](https://cloud.oracle.com/) - Oracle Cloud Platform as a Service (PaaS) helps enterprise IT and independent software vendor (ISV) developers rapidly build and deploy rich applications.
+
+***********
 
 ## Frameworks & Tools
 
@@ -170,6 +180,8 @@ Any **recommendations** and **suggestions** are welcomed.
 - [Quartz](http://www.quartz-scheduler.org/) - Quartz is a job scheduling library that can be integrated into a wide variety of Java applications.
 - [Celery](http://www.celeryproject.org/) - Celery is a simple, flexible, and reliable distributed system to process vast amounts of messages.
 
+***********
+
 ## Database
 
 ### Column Family
@@ -234,6 +246,8 @@ Any **recommendations** and **suggestions** are welcomed.
 - [Riak TS](http://basho.com/products/riak-ts/) - Riak® TS is the only enterprise-grade NoSQL time series database optimized specifically for IoT and Time Series data.
 - [InfluxDB](https://www.influxdata.com/) - InfluxDB is an open-source time series database developed by InfluxData as part of their time series platform. It is written in Go and optimized for fast. 
 
+***********
+
 ## Data Warehouse
 - [Redshift](https://aws.amazon.com/documentation/redshift/) - Amazon Redshift is a fast, fully managed, petabyte-scale data warehouse service.
 - [Vertica](http://www8.hp.com/us/en/software-solutions/advanced-sql-big-data-analytics/) - HPE Vertica 8 introduces a unified architecture and advanced in-database analytics capabilities that enable users to conduct sophisticated analysis at industry-leading scale and speed.
@@ -241,12 +255,16 @@ Any **recommendations** and **suggestions** are welcomed.
 - [InfiniDB](http://infinidb.co/) - Column Database Accelerates Insights for Analytics, BI, and Data Warehouse.
 - [Druid](http://druid.io/) - Druid supports fast aggregations and sub-second OLAP queries.
 
+***********
+
 ## Storage
 - [Amazon Simple Storage Service (S3)](https://aws.amazon.com/s3/) - Amazon Simple Storage Service (Amazon S3), provides developers and IT teams with secure, durable, highly-scalable cloud storage.
 - [Riak S2](http://basho.com/products/riak-s2/) - Riak® S2 is a highly available, scalable, easy-to-operate object storage software solution that’s optimized for holding videos, images, and other files.
 - [Ceph Storage](http://ceph.com/ceph-storage/) - Ceph is a distributed object store and file system designed to provide excellent storage.
 - [Nimbus.io](https://github.com/SpiderOak/nimbus.io) - Nimbus.io is both a commercially available cloud storage service AND a free software project.
 - [OpenStack Swift](http://docs.openstack.org/developer/swift/) - Swift is a highly available, distributed, eventually consistent object/blob store.
+
+***********
 
 ## Big Data
 
@@ -319,6 +337,8 @@ Any **recommendations** and **suggestions** are welcomed.
 - [Zeppelin](https://zeppelin.apache.org/) - Apache Zeppelin interpreter concept allows any language/data-processing-backend to be plugged into Zeppelin.
 - [RStudio](https://www.rstudio.com/) - A powerful and productive user interface for R.
 
+***********
+
 ## Distributed File System
 - [DSEFS](https://docs.datastax.com/en/latest-dse/datastax_enterprise/ana/aboutDsefs.html) - DSEFS (DataStax Enterprise file system) is a new distributed file system within DataStax Enterprise.
 - [HDFS](http://hortonworks.com/apache/hdfs/) - HDFS is a Java-based file system that provides scalable and reliable data storage, and it was designed to span large clusters of commodity servers.
@@ -326,6 +346,8 @@ Any **recommendations** and **suggestions** are welcomed.
 - [Amazon EFS](https://aws.amazon.com/efs/) - Shared file storage for the AWS cloud, supporting a file system interface and file system semantics for thousands of Amazon EC2 instances. 
 - [Ceph FS](http://docs.ceph.com/docs/jewel/cephfs/) - The Ceph Filesystem (Ceph FS) is a POSIX-compliant filesystem that uses a Ceph Storage Cluster to store its data.
 - [Alluxio](http://www.alluxio.org/) - Alluxio, formerly Tachyon, enables any application to interact with any data from any storage system at memory speed.
+
+***********
 
 ## BI Tools
 - [Tableau](https://www.tableau.com/) - Tableau is data visualization software.
@@ -336,6 +358,8 @@ Any **recommendations** and **suggestions** are welcomed.
 - [SAS Visual Analytics](http://www.sas.com/en_us/software/business-intelligence/visual-analytics.html) - Robust reporting and mobile BI.
 - [IBM Watson Analytics](https://watson.analytics.ibmcloud.com/product) - Watson Analytics guides analysis with automated data visualization and discovery so you can uncover insights on your own.
 
+***********
+
 ## DevOps
 - [Docker](https://www.docker.com/) - Docker is an open platform for developers and sysadmins to build, ship, and run distributed applications, whether on laptops, data center VMs, or the cloud.
 - [Ansible](https://www.ansible.com/) - Ansible is the simplest way to automate apps and IT infrastructure.
@@ -343,6 +367,8 @@ Any **recommendations** and **suggestions** are welcomed.
 - [Bamboo](https://www.atlassian.com/software/bamboo) - Continuous delivery, from code to deployment. ... Focus on coding and count on Bamboo as your CI and build server.
 - [Chef](https://www.chef.io/chef/) - Chef is an open source software agent that automates your infrastructure by turning it into code.
 - [Puppet](https://puppet.com/) - Puppet is an open-source configuration management tool.
+
+***********
 
 ## Security
 - [OWASP](https://www.owasp.org/) - The Open Web Application Security Project (OWASP) is an online community which creates freely-available articles, methodologies, documentation, tools.
@@ -352,14 +378,20 @@ Any **recommendations** and **suggestions** are welcomed.
 - [OpenLDAP](http://www.openldap.org/) - OpenLDAP Software is an open source implementation of the Lightweight Directory Access Protocol.
 - [Active Directory](https://en.wikipedia.org/wiki/Active_Directory) - Active Directory (AD) is a directory service that Microsoft developed for Windows domain networks.
 
+***********
+
 ## Web Frameworks
 - [ReactJS](https://facebook.github.io/react/) - Declarative. React makes it painless to create interactive UIs. Design simple views for each state in your application.
 - [AngularJS](https://angularjs.org/) - AngularJS is what HTML would have been, had it been designed for building web-apps. Declarative templates with data-binding, MVW, MVVM, MVC.
+
+***********
 
 ## Mobile Frameworks
 - [Xamarin](https://www.xamarin.com/) - Xamarin's mobile application development platform with native user interfaces enables sharing of code across all platforms with a single C# codebase.
 - [React Native](https://facebook.github.io/react-native/) - Build Native Mobile Apps using JavaScript and React. React Native lets you build mobile apps using only JavaScript. It uses the same design as React. 
 - [Apache Cordova](https://cordova.apache.org/) - Apache Cordova (formerly PhoneGap) is a popular mobile application development framework originally created by Nitobi.
+
+***********
 
 ## Game Engines
 - [Unity3D](https://unity3d.com/) - Unity3D is a cross-platform game engine developed by Unity Technologies and used to develop video games for PC, consoles, mobile devices and websites.
@@ -367,9 +399,13 @@ Any **recommendations** and **suggestions** are welcomed.
 - [Stingray](http://www.autodesk.com/products/stingray/overview) - Autodesk® Stingray is a modern game engine built on a powerful, data-driven core architecture that can produce visually stunning games.
 - [Lumberyard](https://aws.amazon.com/lumberyard/) - Amazon Lumberyard is a free, cross-platform, 3D game engine for you to create the highest-quality games, connect your games to the vast compute and storage. 
 
+***********
+
 ## AI Tools
 - [IBM Watson](http://www.ibm.com/watson/) - IBM Watson is a technology platform that uses natural language processing and machine learning to reveal insights from large amounts of unstructured data.
 - [OpenCV](http://opencv.org/) - OpenCV (Open Source Computer Vision) is a library of programming functions mainly aimed at real-time computer vision.
+
+***********
 
 ## IoT
 
@@ -377,10 +413,14 @@ Any **recommendations** and **suggestions** are welcomed.
 - [Brillo](https://developers.google.com/brillo/) - Brillo brings the simplicity and speed of software development to hardware for IoT with an embedded OS, core services, developer kit, and developer console.
 - [mbed OS](https://www.mbed.com/en/platform/mbed-os/) - ARM mbed OS is a platform operating system designed for the internet of things.
 
+***********
+
 ## UML Tools
 - [Draw.io](https://www.draw.io/) - Draw.io is free online diagram software for making flowcharts, process diagrams, org charts, UML, ER and network diagrams.
 - [Microsoft Visio](https://products.office.com/en/visio/flowchart-software) - Microsoft Visio (formerly Microsoft Office Visio) is a diagramming and vector graphics application and is part of the Microsoft Office family.
 - [Enterprise Architect](http://www.sparxsystems.com/) - Enterprise architects are practitioners of enterprise architecture; an enterprise strategic management discipline that operates within organizations.
+
+***********
 
 ## Summit Events
 - [AWS re:Invent](https://reinvent.awsevents.com/) - At AWS re:Invent, connect with peers and cloud experts, collaborate at our bootcamps, and learn how AWS can improve productivity, security.

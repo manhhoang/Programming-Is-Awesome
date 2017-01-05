@@ -402,6 +402,7 @@ Any **recommendations** and **suggestions** are welcomed.
 ***********
 
 ## AI Tools
+- [IBM Data Science Experience](http://datascience.ibm.com/) - IBM Data Science Experience is an interactive, collaborative, cloud-based environment where data scientists can use multiple tools.
 - [IBM Watson](http://www.ibm.com/watson/) - IBM Watson is a technology platform that uses natural language processing and machine learning to reveal insights from large amounts of unstructured data.
 - [OpenCV](http://opencv.org/) - OpenCV (Open Source Computer Vision) is a library of programming functions mainly aimed at real-time computer vision.
 

@@ -11,6 +11,11 @@ Any **recommendations** and **suggestions** are welcomed.
 - [Architecture](#architecture)
 - [Parallel Programming](#parallel-programming)
 - [Cloud Providers](#cloud-providers)
+- [Data Science](#data-science)
+    - [Machine Learning](#machine-learning)
+    - [ML Tools](#ml-tools)
+    - [Notebook](#notebook)
+    - [AI Tools](#ai-tools)
 - [Frameworks & Tools](#frameworks--tools)
     - [Reactive Framework](#reactive-framework)
     - [Micoservices Framework](#micoservices-framework)     
@@ -42,10 +47,7 @@ Any **recommendations** and **suggestions** are welcomed.
     - [Big Data Speed Layer](#big-data-speed-layer)
     - [Big Data Batch Layer](#big-data-batch-layer)
     - [Resource Manager](#resource-manager)
-    - [Distributed SQL Query Engine](#distributed-sql-query-engine)
-    - [Machine Learning](#machine-learning)
-    - [Machine Learning Tools](#machine-learning-tools)
-    - [Notebook](#notebook)    
+    - [Distributed SQL Query Engine](#distributed-sql-query-engine)        
 - [Distributed File System](#distributed-file-system)
 - [BI Tools](#bi-tools)   
 - [DevOps](#devops)
@@ -53,7 +55,6 @@ Any **recommendations** and **suggestions** are welcomed.
 - [Web Frameworks](#web-frameworks)
 - [Mobile Frameworks](#mobile-frameworks)
 - [Game Engines](#game-engines)
-- [AI Tools](#ai-tools)
 - [IoT](#iot)
     - [IoT OS](#iot-os)
 - [UML Tools](#uml-tools)     
@@ -107,6 +108,33 @@ Any **recommendations** and **suggestions** are welcomed.
 - [Heroku](https://www.heroku.com/) - Heroku is a platform as a service (PaaS) that enables developers to build, run, and operate applications entirely in the cloud.
 - [SAP HANA Cloud Platform](https://hcp.sap.com/index.html) - SAP HANA Cloud Platform is an open platform-as-a-service that provides unique in-memory database and application services.
 - [Oracle Cloud](https://cloud.oracle.com/) - Oracle Cloud Platform as a Service (PaaS) helps enterprise IT and independent software vendor (ISV) developers rapidly build and deploy rich applications.
+
+***********
+
+## Data Science
+
+### Machine Learning
+- [Scikit Learn](http://scikit-learn.org/stable/) - An open source Python library that implements a range of machine learning, preprocessing, cross-validation and visualization algorithms.
+- [Apache Mahout](https://mahout.apache.org/) - The Apache Mahout™ project's goal is to build an environment for quickly creating scalable performant machine learning applications.
+- [Spark MLlib](http://spark.apache.org/mllib/) - MLlib is Apache Spark's scalable machine learning library.
+- [H2O](http://www.h2o.ai/) - H2O is open-source software for big-data analysis.
+- [Apache MADlib](https://madlib.incubator.apache.org/) - Apache MADlib (incubating): Big Data Machine Learning in SQL.
+- [Weka](http://www.cs.waikato.ac.nz/ml/weka/) - Waikato Environment for Knowledge Analysis (Weka) is a popular suite of machine learning software written in Java, developed at the University of Waikato.
+- [Apache SystemML](https://systemml.apache.org/) - Apache SystemML provides an optimal workplace for Machine Learning using big data.
+
+### ML Tools
+- [PyData](http://pydata.org/) - PyData is a gathering of users and developers of data analysis tools in Python.
+- [R](https://www.r-project.org/) - R, also called GNU S, is a strongly functional language and environment to statistically explore data sets, make many graphical displays of data.
+
+### Notebook
+- [Jupyter](http://jupyter.org/) - Open source, interactive data science and scientific computing across over 40 programming languages.
+- [Zeppelin](https://zeppelin.apache.org/) - Apache Zeppelin interpreter concept allows any language/data-processing-backend to be plugged into Zeppelin.
+- [RStudio](https://www.rstudio.com/) - A powerful and productive user interface for R.
+
+### AI Tools
+- [IBM Data Science Experience](http://datascience.ibm.com/) - IBM Data Science Experience is an interactive, collaborative, cloud-based environment where data scientists can use multiple tools.
+- [IBM Watson](http://www.ibm.com/watson/) - IBM Watson is a technology platform that uses natural language processing and machine learning to reveal insights from large amounts of unstructured data.
+- [OpenCV](http://opencv.org/) - OpenCV (Open Source Computer Vision) is a library of programming functions mainly aimed at real-time computer vision.
 
 ***********
 
@@ -319,24 +347,6 @@ Any **recommendations** and **suggestions** are welcomed.
 - [IBM Big SQL](http://www.ibm.com/analytics/us/en/technology/big-sql/) - IBM Big SQL is a data warehouse system for Hadoop that you use to summarize, query, and analyze data.
 - [Apache Kylin](http://kylin.apache.org/) - Apache Kylin™ is an open source Distributed Analytics Engine.
 
-### Machine Learning
-- [Apache Mahout](https://mahout.apache.org/) - The Apache Mahout™ project's goal is to build an environment for quickly creating scalable performant machine learning applications.
-- [Spark MLlib](http://spark.apache.org/mllib/) - MLlib is Apache Spark's scalable machine learning library.
-- [H2O](http://www.h2o.ai/) - H2O is open-source software for big-data analysis.
-- [Apache MADlib](https://madlib.incubator.apache.org/) - Apache MADlib (incubating): Big Data Machine Learning in SQL.
-- [Weka](http://www.cs.waikato.ac.nz/ml/weka/) - Waikato Environment for Knowledge Analysis (Weka) is a popular suite of machine learning software written in Java, developed at the University of Waikato.
-- [Scikit Learn](http://scikit-learn.org/stable/) - An open source Python library that implements a range of machine learning, preprocessing, cross-validation and visualization algorithms.
-- [Apache SystemML](https://systemml.apache.org/) - Apache SystemML provides an optimal workplace for Machine Learning using big data.
-
-### Machine Learning Tools
-- [PyData](http://pydata.org/) - PyData is a gathering of users and developers of data analysis tools in Python.
-- [R](https://www.r-project.org/) - R, also called GNU S, is a strongly functional language and environment to statistically explore data sets, make many graphical displays of data.
-
-### Notebook
-- [Jupyter](http://jupyter.org/) - Open source, interactive data science and scientific computing across over 40 programming languages.
-- [Zeppelin](https://zeppelin.apache.org/) - Apache Zeppelin interpreter concept allows any language/data-processing-backend to be plugged into Zeppelin.
-- [RStudio](https://www.rstudio.com/) - A powerful and productive user interface for R.
-
 ***********
 
 ## Distributed File System
@@ -398,13 +408,6 @@ Any **recommendations** and **suggestions** are welcomed.
 - [Unreal Engine](https://www.unrealengine.com) - Unreal Engine 4 is a suite of integrated tools for game developers to design and build games, simulations, and visualizations.
 - [Stingray](http://www.autodesk.com/products/stingray/overview) - Autodesk® Stingray is a modern game engine built on a powerful, data-driven core architecture that can produce visually stunning games.
 - [Lumberyard](https://aws.amazon.com/lumberyard/) - Amazon Lumberyard is a free, cross-platform, 3D game engine for you to create the highest-quality games, connect your games to the vast compute and storage. 
-
-***********
-
-## AI Tools
-- [IBM Data Science Experience](http://datascience.ibm.com/) - IBM Data Science Experience is an interactive, collaborative, cloud-based environment where data scientists can use multiple tools.
-- [IBM Watson](http://www.ibm.com/watson/) - IBM Watson is a technology platform that uses natural language processing and machine learning to reveal insights from large amounts of unstructured data.
-- [OpenCV](http://opencv.org/) - OpenCV (Open Source Computer Vision) is a library of programming functions mainly aimed at real-time computer vision.
 
 ***********
 

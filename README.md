@@ -123,6 +123,10 @@ Any **recommendations** and **suggestions** are welcomed.
 - [Apache SystemML](https://systemml.apache.org/) - Apache SystemML provides an optimal workplace for Machine Learning using big data.
 
 ### ML Tools
+- [Numpy](http://www.numpy.org/) - NumPy is the fundamental package for scientific computing with Python. It contains among other things: a powerful N-dimensional array object.
+- [SciPy](https://www.scipy.org/) - Open Source Library of Scientific Tools. SciPy supplements the popular Numeric module, gathering a variety of high level science and engineering modules.
+- [Pandas](http://pandas.pydata.org/) - Pandas is an open source, BSD-licensed library providing high-performance, easy-to-use data structures and data analysis tools for the Python programming.
+- [Matplotlib](http://matplotlib.org/) - 2D plotting library which produces publication quality figures in a variety of hardcopy formats and interactive environments across platforms.
 - [PyData](http://pydata.org/) - PyData is a gathering of users and developers of data analysis tools in Python.
 - [R](https://www.r-project.org/) - R, also called GNU S, is a strongly functional language and environment to statistically explore data sets, make many graphical displays of data.
 

@@ -435,6 +435,7 @@ Any **recommendations** and **suggestions** are welcomed.
 - [Strata Hadoop World](http://www.stratahadoopworld.com/) - Strata Hadoop World. Where big data, cutting-edge data science, and new business fundamentals intersect–and merge.
 - [Spark Summit](https://spark-summit.org/) - Organized by Databricks, Spark Summit is the premier big data conference series dedicated to bring the Apache Spark community together across the globe.
 - [Reactive Summit](https://www.reactivesummit.org/) - Organized by Lightbend.
+- [PyData Events](http://pydata.org/events.html) - PyData is a three-day event where data science professionals, in both academia and enterprise, come together to discuss the challenges.
 
 **[⬆ back to top](#table-of-contents)**
 

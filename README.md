@@ -115,6 +115,7 @@ Any **recommendations** and **suggestions** are welcomed.
 
 ### Machine Learning
 - [Scikit Learn](http://scikit-learn.org/stable/) - An open source Python library that implements a range of machine learning, preprocessing, cross-validation and visualization algorithms.
+- [TensorFlow](https://www.tensorflow.org/) - TensorFlow™ is an open source software library for numerical computation using data flow graphs.
 - [Apache Mahout](https://mahout.apache.org/) - The Apache Mahout™ project's goal is to build an environment for quickly creating scalable performant machine learning applications.
 - [Spark MLlib](http://spark.apache.org/mllib/) - MLlib is Apache Spark's scalable machine learning library.
 - [H2O](http://www.h2o.ai/) - H2O is open-source software for big-data analysis.

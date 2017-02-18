@@ -8,11 +8,15 @@ Any **recommendations** and **suggestions** are welcomed.
 
 - [Programming Languages](#programming-languages)
 - [Algorithms](#algorithms)
+    - [Algorithm Techniques](algorithm-techniques)
+    - [Algorithm Fundamental](algorithm-fundamental)
+    - [Data Structures](data-structures)
 - [Architecture](#architecture)
 - [Parallel Programming](#parallel-programming)
 - [Cloud Providers](#cloud-providers)
 - [Data Science](#data-science)
     - [Machine Learning](#machine-learning)
+    - [Deep Learning](#deep-learning)
     - [ML Tools](#ml-tools)
     - [Notebook](#notebook)
     - [AI Tools](#ai-tools)
@@ -72,11 +76,28 @@ Any **recommendations** and **suggestions** are welcomed.
 ***********
 
 ## Algorithms
+
+### Algorithm Techniques
 - [Two Pointer](https://tp-iiita.quora.com/The-Two-Pointer-Algorithm) -  The legendary two pointer approach is one such technique which is less of a talk and more of a discussion on the problems.
 - [Dynamic Programming](https://en.wikipedia.org/wiki/Dynamic_programming) - Dynamic programming (also known as dynamic optimization) is a method for solving a complex problem by breaking it down into a collection of simpler subproblems, solving each of those subproblems just once, and storing their solutions.
 - [Greedy](https://en.wikipedia.org/wiki/Greedy_algorithm) - Greedy algorithm is an algorithmic paradigm that follows the problem solving heuristic of making the locally optimal choice at each stage with the hope of finding a global optimum.
 - [Backtracking](https://en.wikipedia.org/wiki/Backtracking) - Backtracking is a general algorithm for finding all (or some) solutions to some computational problems.
 - [Brute Force](http://faculty.simpson.edu/lydia.sinapova/www/cmsc250/LN250_Levitin/L05-BruteForce.htm) - Brute force is a straightforward approach to solve a problem based on the problem’s statement and definitions of the concepts involved.
+
+### Algorithm Fundamental
+- [Sorting](http://algs4.cs.princeton.edu/20sorting/) - Sorting is the process of rearranging a sequence of objects so as to put them in some logical order.
+- [Searching](http://algs4.cs.princeton.edu/30searching/) - Modern computing and the internet have made accessible a vast amount of information.
+
+### Data Structures
+- [LinkedList](http://www.geeksforgeeks.org/data-structures/#LinkedList) - Like arrays, Linked List is a linear data structure. Unlike arrays, linked list elements are not stored at contiguous location; the elements are linked using pointers.
+- [Stack](http://www.geeksforgeeks.org/stack/) - A stack is an abstract data type that serves as a collection of elements, with two principal operations: push, which adds an element to the collection, and pop, which removes the most recently added element that was not yet removed.
+- [Queue](http://www.geeksforgeeks.org/data-structures/#Queue) - Queue is an abstract data structure, somewhat similar to Stacks. Unlike stacks, a queue is open at both its ends. One end is always used to insert data (enqueue) and the other is used to remove data (dequeue).
+- [Binary Tree](http://www.geeksforgeeks.org/binary-tree-2/) - A binary tree is a tree data structure in which each node has at most two children, which are referred to as the left child and the right child.
+- [Binary Search Tree](http://www.geeksforgeeks.org/data-structures/#BinarySearchTree) - A Binary Search Tree (BST) is a tree in which all the nodes follow the below-mentioned properties − The left sub-tree of a node has a key less than or equal to its parent node's key. The right sub-tree of a node has a key greater than or equal to its parent node's key.
+- [Binary Heap](http://www.geeksforgeeks.org/heap/) - A binary heap is a complete binary tree which satisfies the heap ordering property. The ordering can be one of two types: the min-heap property: the value of each node is greater than or equal to the value of its parent, with the minimum-value element at the root.
+- [Trie](http://www.geeksforgeeks.org/data-structures/#AdvancedDataStructure) - A trie, also called digital tree and sometimes radix tree or prefix tree (as they can be searched by prefixes), is a kind of search tree—an ordered tree data structure that is used to store a dynamic set or associative array where the keys are usually strings.
+- [Suffix Tree](http://www.geeksforgeeks.org/data-structures/#AdvancedDataStructure) - A suffix tree (also called PAT tree or, in an earlier form, position tree) is a compressed trie containing all the suffixes of the given text as their keys and positions in the text as their values.
+- [Inverted Index](https://en.wikipedia.org/wiki/Inverted_index) - In computer science, an inverted index (also referred to as postings file or inverted file) is an index data structure storing a mapping from content, such as words or numbers, to its locations in a database file, or in a document or a set of documents.
 
 ***********
 
@@ -115,13 +136,17 @@ Any **recommendations** and **suggestions** are welcomed.
 
 ### Machine Learning
 - [Scikit Learn](http://scikit-learn.org/stable/) - An open source Python library that implements a range of machine learning, preprocessing, cross-validation and visualization algorithms.
-- [TensorFlow](https://www.tensorflow.org/) - TensorFlow™ is an open source software library for numerical computation using data flow graphs.
 - [Apache Mahout](https://mahout.apache.org/) - The Apache Mahout™ project's goal is to build an environment for quickly creating scalable performant machine learning applications.
 - [Spark MLlib](http://spark.apache.org/mllib/) - MLlib is Apache Spark's scalable machine learning library.
 - [H2O](http://www.h2o.ai/) - H2O is open-source software for big-data analysis.
 - [Apache MADlib](https://madlib.incubator.apache.org/) - Apache MADlib (incubating): Big Data Machine Learning in SQL.
 - [Weka](http://www.cs.waikato.ac.nz/ml/weka/) - Waikato Environment for Knowledge Analysis (Weka) is a popular suite of machine learning software written in Java, developed at the University of Waikato.
 - [Apache SystemML](https://systemml.apache.org/) - Apache SystemML provides an optimal workplace for Machine Learning using big data.
+
+### Deep Learning
+- [TensorFlow](https://www.tensorflow.org/) - TensorFlow™ is an open source software library for numerical computation using data flow graphs.
+- [Theano](http://deeplearning.net/software/theano/) - Theano is a Python library that allows you to define, optimize, and evaluate mathematical expressions involving multi-dimensional arrays efficiently.
+- [OpenNLP](https://opennlp.apache.org/) - Apache OpenNLP is a Java machine learning toolkit for natural language processing (NLP).
 
 ### ML Tools
 - [Numpy](http://www.numpy.org/) - NumPy is the fundamental package for scientific computing with Python. It contains among other things: a powerful N-dimensional array object.

@@ -8,9 +8,9 @@ Any **recommendations** and **suggestions** are welcomed.
 
 - [Programming Languages](#programming-languages)
 - [Algorithms](#algorithms)
-    - [Algorithm Techniques](algorithm-techniques)
-    - [Algorithm Fundamental](algorithm-fundamental)
-    - [Data Structures](data-structures)
+    - [Algorithm Techniques](#algorithm-techniques)    
+    - [Algorithm Fundamental](#algorithm-fundamental)
+    - [Data Structures](#data-structures)
 - [Architecture](#architecture)
 - [Parallel Programming](#parallel-programming)
 - [Cloud Providers](#cloud-providers)

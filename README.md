@@ -309,6 +309,7 @@ Any **recommendations** and **suggestions** are welcomed.
 ## Data Warehouse
 - [Redshift](https://aws.amazon.com/documentation/redshift/) - Amazon Redshift is a fast, fully managed, petabyte-scale data warehouse service.
 - [Vertica](http://www8.hp.com/us/en/software-solutions/advanced-sql-big-data-analytics/) - HPE Vertica 8 introduces a unified architecture and advanced in-database analytics capabilities that enable users to conduct sophisticated analysis at industry-leading scale and speed.
+- [Teradata](http://www.teradata.com/) - Teradata is a leading provider of powerful, enterprise big data analytics and services that include Data Warehousing, Data Driven Marketing.
 - [Pivotal Greenplum](https://pivotal.io/big-data/pivotal-greenplum) - Pivotal Greenplum is a commercial fully featured data warehouse powered by the open source Greenplum Database.
 - [InfiniDB](http://infinidb.co/) - Column Database Accelerates Insights for Analytics, BI, and Data Warehouse.
 - [Druid](http://druid.io/) - Druid supports fast aggregations and sub-second OLAP queries.

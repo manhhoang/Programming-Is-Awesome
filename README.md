@@ -87,6 +87,8 @@ Any **recommendations** and **suggestions** are welcomed.
 ### Algorithm Fundamental
 - [Sorting](http://algs4.cs.princeton.edu/20sorting/) - Sorting is the process of rearranging a sequence of objects so as to put them in some logical order.
 - [Searching](http://algs4.cs.princeton.edu/30searching/) - Modern computing and the internet have made accessible a vast amount of information.
+- [String](http://algs4.cs.princeton.edu/50strings/) - We communicate by exchanging strings of characters. We consider classic algorithms for addressing the underlying computational challenges surrounding applications.
+- [Graph](http://algs4.cs.princeton.edu/40graphs/) - Typical graph algorithm problems for this example would be to determine how two people are related, or to draw this graph as a nice picture of the family tree.
 
 ### Data Structures
 - [LinkedList](http://www.geeksforgeeks.org/data-structures/#LinkedList) - Like arrays, Linked List is a linear data structure. Unlike arrays, linked list elements are not stored at contiguous location; the elements are linked using pointers.

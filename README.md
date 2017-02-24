@@ -144,6 +144,8 @@ Any **recommendations** and **suggestions** are welcomed.
 - [Apache MADlib](https://madlib.incubator.apache.org/) - Apache MADlib (incubating): Big Data Machine Learning in SQL.
 - [Weka](http://www.cs.waikato.ac.nz/ml/weka/) - Waikato Environment for Knowledge Analysis (Weka) is a popular suite of machine learning software written in Java, developed at the University of Waikato.
 - [Apache SystemML](https://systemml.apache.org/) - Apache SystemML provides an optimal workplace for Machine Learning using big data.
+- [SAS Enterprise Miner](https://www.sas.com/en_us/software/enterprise-miner.html) - SAS Enterprise Miner is a solution to create accurate predictive and descriptive models on large volumes of data across different sources in the organization.
+- [IBM SPSS Modeler](http://www-03.ibm.com/software/products/en/spss-modeler) - IBM SPSS Modeler is a data mining and text analytics software application from IBM. It is used to build predictive models and conduct other analytic tasks.
 
 ### Deep Learning
 - [TensorFlow](https://www.tensorflow.org/) - TensorFlow™ is an open source software library for numerical computation using data flow graphs.

@@ -67,7 +67,7 @@ Any **recommendations** and **suggestions** are welcomed.
 ***********
 
 ## Programming Languages
-- [Java](https://www.java.com) - Java is a general-purpose computer programming language that is concurrent, class-based, object-oriented.
+- [Java](https://docs.oracle.com/javase/tutorial/) - Java is a general-purpose computer programming language that is concurrent, class-based, object-oriented.
 - [Scala](http://www.scala-lang.org/) - General purpose language; multiparadigm (object-oriented, functional, concurrent elements); statically typed, type-safe; focus: Web services.
 - [Go](https://golang.org/) - Go is an open source programming language that makes it easy to build simple, reliable, and efficient software.
 - [Python](https://www.python.org/) - Python is a widely used high-level, general-purpose, interpreted, dynamic programming language.

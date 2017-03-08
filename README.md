@@ -22,7 +22,8 @@ Any **recommendations** and **suggestions** are welcomed.
     - [AI Tools](#ai-tools)
 - [Frameworks & Tools](#frameworks--tools)
     - [Reactive Framework](#reactive-framework)
-    - [Micoservices Framework](#micoservices-framework)     
+    - [Micoservices Framework](#micoservices-framework)
+    - [ORM](#orm)
     - [Monitoring](#monitoring)
     - [Load Balancer](#load-balancer)
     - [API Gateway](#api-gateway)
@@ -192,6 +193,11 @@ Any **recommendations** and **suggestions** are welcomed.
 - [Sparkjava](http://sparkjava.com/) - Spark Framework - Create web applications in Java rapidly. Spark is a micro web framework that lets you focus on writing your code, not boilerplate code.
 - [Gin](https://github.com/gin-gonic/gin) - Gin is a web framework written in Go (Golang). It features a martini-like API with much better performance, up to 40 times faster thanks to httprouter.
 
+### ORM
+- [Hibernate](http://hibernate.org/) - Hibernate an open source Java persistence framework project.
+- [JPA](https://en.wikipedia.org/wiki/Java_Persistence_API) - The Java Persistence API (JPA) is a Java application programming interface specification that describes the management of relational data in applications using Java Platform.
+- [EclipseLink](http://www.eclipse.org/eclipselink/) - The software provides an extensible framework that allows Java developers to interact with various data services, including databases, web services, Object XML mapping (OXM), and Enterprise Information Systems (EIS).
+
 ### Monitoring
 - [Ganglia](http://ganglia.info/) - Ganglia is a scalable distributed monitoring system for high-performance computing systems such as clusters and Grids.
 - [Nagios](https://www.nagios.org/) - Nagios provides enterprise-class Open Source IT monitoring, network monitoring, server and applications monitoring.
@@ -290,6 +296,7 @@ Any **recommendations** and **suggestions** are welcomed.
 - [Ehcache](http://www.ehcache.org/) - Ehcache is an open source, standards-based cache that boosts performance, offloads your database, and simplifies scalability.
 - [Infinispan](http://infinispan.org/) - Infinispan is a distributed cache and key-value NoSQL data store software developed by Red Hat.
 - [GridGain](https://www.gridgain.com/) - The GridGain Enterprise Edition includes valuable features added to Apache® Ignite™ which make deploying and maintaining a high performance in-memory.
+- [Coherence](http://www.oracle.com/technetwork/middleware/coherence/overview/index.html) - Oracle Coherence is the industry leading in-memory data grid solution that enables organizations to predictably scale mission-critical applications by providing fast access to frequently used data.
 - [Apache Ignite](https://ignite.apache.org/) - Apache Ignitetm In-Memory Data Fabric is a high-performance, integrated and distributed in-memory platform for computing and transacting.
 - [JCS](https://commons.apache.org/proper/commons-jcs/) - JCS is a distributed caching system written in Java.
 

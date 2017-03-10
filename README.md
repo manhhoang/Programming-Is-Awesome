@@ -197,6 +197,7 @@ Any **recommendations** and **suggestions** are welcomed.
 - [Hibernate](http://hibernate.org/) - Hibernate an open source Java persistence framework project.
 - [JPA](https://en.wikipedia.org/wiki/Java_Persistence_API) - The Java Persistence API (JPA) is a Java application programming interface specification that describes the management of relational data in applications using Java Platform.
 - [EclipseLink](http://www.eclipse.org/eclipselink/) - The software provides an extensible framework that allows Java developers to interact with various data services, including databases, web services, Object XML mapping (OXM), and Enterprise Information Systems (EIS).
+- [Slick](http://slick.lightbend.com/) - Slick is a modern database query and access library for Scala. 
 
 ### Monitoring
 - [Ganglia](http://ganglia.info/) - Ganglia is a scalable distributed monitoring system for high-performance computing systems such as clusters and Grids.

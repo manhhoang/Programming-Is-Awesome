@@ -365,6 +365,7 @@ Any **recommendations** and **suggestions** are welcomed.
 - [Apache Samza](http://samza.apache.org/) - Apache Samza is a distributed stream processing framework. It uses Apache Kafka for messaging, and Apache Hadoop YARN to provide fault tolerance.
 - [Apache Gearpump](https://gearpump.apache.org/) - Apache Gearpump is a real-time big data streaming engine.
 - [Spring XD](http://projects.spring.io/spring-xd/) - Spring XD is a unified, distributed, and extensible service for data ingestion, real time analytics, batch processing, and data export.
+- [Apache Beam](https://beam.apache.org/) - Apache Beam is an open source, unified model and set of language-specific SDKs for defining and executing data processing workflows.
 
 ### Big Data Batch Layer
 - [Databricks](https://databricks.com/) - Founded by the creators of Apache Spark, Databricks makes big data analytics simple through an integrated workspace hosted as a service in the cloud.

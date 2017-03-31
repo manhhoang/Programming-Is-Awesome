@@ -111,6 +111,7 @@ Any **recommendations** and **suggestions** are welcomed.
 - [CQRS](http://martinfowler.com/bliki/CQRS.html) - Command and Query Responsibility Segregation (CQRS) is a pattern that segregates the operations that read data (Queries) from the operations that update data (Commands) by using separate interfaces.
 - [Event Sourcing](http://microservices.io/patterns/data/event-sourcing.html) - Event Sourcing persists each business entity as a sequence of events.
 - [Materialized View](https://en.wikipedia.org/wiki/Materialized_view) - A materialized view is a database object that contains the results of a query.
+- [DDD](https://en.wikipedia.org/wiki/Domain-driven_design) - Domain-driven design (DDD) is an approach to software development for complex needs by connecting the implementation to an evolving model.
 
 ***********
 

@@ -37,7 +37,7 @@ Any **recommendations** and **suggestions** are welcomed.
 - [Database](#database)
     - [Column Family](#column-family)
     - [Document Oriented](#document-oriented)
-    - [Search DB](#Search-db)
+    - [Search DB](#search-db)
     - [Graph DB](#graph-db)
     - [NewSQL](#newsql)
     - [In-memory DB](#in-memory-db)
@@ -105,6 +105,7 @@ Any **recommendations** and **suggestions** are welcomed.
 ***********
 
 ## Architecture
+- [SMACK Stack](http://www.cakesolutions.net/teamblogs/smack-stack-on-dcos) - The SMACK stack consists of Spark, Mesos, Akka, Cassandra and Kafka.
 - [Functional programming](https://en.wikipedia.org/wiki/Functional_programming) - In computer science, functional programming is a programming paradigm—a style of building the structure and elements of computer programs—that treats computation as the evaluation of mathematical functions and avoids changing-state and mutable data. 
 - [Microservices](https://en.wikipedia.org/wiki/Microservices) - Microservices is a specialisation of and implementation approach for distributed architectures used to build flexible, independently deployable software systems.
 - [Reactive Programming](https://en.wikipedia.org/wiki/Reactive_programming) - Reactive programming is about non-blocking applications that are asynchronous and event-driven and require a small number of threads to scale.
@@ -188,6 +189,7 @@ Any **recommendations** and **suggestions** are welcomed.
 - [Spring Web Reactive](http://docs.spring.io/spring-framework/docs/5.0.0.M1/spring-framework-reference/html/web-reactive.html) - Reactive programming is about non-blocking applications that are asynchronous and event-driven and require a small number of threads to scale.
 
 ### Micoservices Framework
+- [Akka HTTP](https://github.com/akka/akka-http) - The Akka HTTP modules implement a full server- and client-side HTTP stack on top of akka-actor and akka-stream. It's not a web-framework but rather a more general toolkit for providing and consuming HTTP-based services.
 - [Lagom](http://www.lagomframework.com/) - Lagom is a framework for creating reactive microservice-based systems.
 - [Play Framework](https://www.playframework.com/) - Play Framework makes it easy to build web applications with Java & Scala. Play is based on a lightweight, stateless, web-friendly architecture. Built on Akka.
 - [Spring Boot](https://projects.spring.io/spring-boot/) - Spring Boot makes it easy to create stand-alone, production-grade Spring based Applications that you can "just run".
@@ -212,6 +214,7 @@ Any **recommendations** and **suggestions** are welcomed.
 
 ### Load Balancer
 - [HAProxy](http://www.haproxy.org/) - The Reliable, High Performance TCP/HTTP Load Balancer.
+- [Marathon-LB](https://github.com/mesosphere/marathon-lb) - Marathon-lb is a tool for managing HAProxy, by consuming Marathon's app state.
 
 ### API Gateway
 - [Tyk](https://tyk.io/) - Tyk is an open source API Gateway that is fast, scalable and modern.

@@ -271,6 +271,7 @@ Any **recommendations** and **suggestions** are welcomed.
 - [CouchDB](http://couchdb.apache.org/) - Apache CouchDB is open source database software that focuses on ease of use and having an architecture that "completely embraces the Web".
 - [Couchbase](http://www.couchbase.com/) - NoSQL database is developed by Couchbase.
 - [DocumentDB](https://azure.microsoft.com/en-us/services/documentdb/) - DocumentDB is a fully managed NoSQL database service built for fast and predictable performance, high availability, elastic scaling.
+- [IBM Cloudant](https://cloudant.com/) - IBM® Cloudant® is a managed NoSQL JSON database service built to ensure that the flow of data between an application and its database.
 
 ### Search DB
 - [Elasticsearch](https://www.elastic.co/products/elasticsearch) - Elasticsearch is a distributed, RESTful search and analytics engine capable of solving a growing number of use cases.

@@ -364,7 +364,8 @@ Any **recommendations** and **suggestions** are welcomed.
 - [Spring XD](http://projects.spring.io/spring-xd/) - Spring XD is a unified, distributed, and extensible service for data ingestion, real time analytics, batch processing, and data export.
 
 ### Big Data Speed Layer
-- [Confluent Platform](http://www.confluent.io/) - The free, open-source streaming platform based on Apache Kafka. Confluent Platform is the best way to get started with real-time data streams.
+- [Confluent Kafka Streams](https://www.confluent.io/product/kafka-streams/) - The free, open-source streaming platform based on Apache Kafka. Confluent Platform is the best way to get started with real-time data streams.
+- [Akka Streams](http://doc.akka.io/docs/akka/current/scala/stream/index.html) - Asynchronous event processing, integrate with various data sources/sinks, send/receive data over the network or to combine multiple streams.
 - [Apache Storm](http://storm.apache.org/) - Apache Storm is a free and open source distributed realtime computation system.
 - [Apache Spark Streaming](http://spark.apache.org/streaming/) - Spark Streaming brings Apache Spark's language-integrated API to stream processing, letting you write streaming jobs the same way you write batch jobs.
 - [Apache Flume Interceptor](https://flume.apache.org/) - Flume is a distributed, reliable, and available service for efficiently collecting, aggregating, and moving large amounts of log data.

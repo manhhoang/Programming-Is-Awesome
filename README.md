@@ -1,17 +1,17 @@
 # Programming Is Awesome
-    
+
 This is a collection of many frameworks and tools for software development.
 
 Any **recommendations** and **suggestions** are welcomed.
 
 ## Table of Contents
 
+- [Architecture](#architecture)
 - [Programming Languages](#programming-languages)
 - [Algorithms](#algorithms)
     - [Algorithm Techniques](#algorithm-techniques)    
     - [Algorithm Fundamental](#algorithm-fundamental)
     - [Data Structures](#data-structures)
-- [Architecture](#architecture)
 - [Parallel Programming](#parallel-programming)
 - [Cloud Providers](#cloud-providers)
 - [Data Science](#data-science)
@@ -67,6 +67,21 @@ Any **recommendations** and **suggestions** are welcomed.
 
 ***********
 
+## Architecture
+![ScreenShot](https://dl.dropboxusercontent.com/u/974078/Architecture.png)
+
+- [SMACK Stack](http://www.cakesolutions.net/teamblogs/smack-stack-on-dcos) - The SMACK stack consists of Spark, Mesos, Akka, Cassandra and Kafka.
+- [Functional programming](https://en.wikipedia.org/wiki/Functional_programming) - Functional programming is a programming paradigm that treats computation as the evaluation of mathematical functions and avoids changing-state and mutable data. 
+- [Microservices](https://en.wikipedia.org/wiki/Microservices) - Microservices is a specialisation of and implementation approach for distributed architectures used to build flexible, independently deployable software systems.
+- [Reactive Programming](https://en.wikipedia.org/wiki/Reactive_programming) - Reactive programming is about non-blocking applications that are asynchronous and event-driven and require a small number of threads to scale.
+- [Lambda Architecture](http://lambda-architecture.net/) - Lambda architecture is a data-processing architecture designed to handle massive quantities of data by taking advantage of both batch- and stream-processing.
+- [CQRS](http://martinfowler.com/bliki/CQRS.html) - Command and Query Responsibility Segregation (CQRS) is a pattern that segregates the operations that read data (Queries) from the operations that update data (Commands) by using separate interfaces.
+- [Event Sourcing](http://microservices.io/patterns/data/event-sourcing.html) - Event Sourcing persists each business entity as a sequence of events, and events are immutable.
+- [Materialized View](https://en.wikipedia.org/wiki/Materialized_view) - A materialized view is a database object that contains the results of a query.
+- [DDD](https://en.wikipedia.org/wiki/Domain-driven_design) - Domain-driven design (DDD) is an approach to software development for complex needs by connecting the implementation to an evolving model.
+
+***********
+
 ## Programming Languages
 - [Java](https://docs.oracle.com/javase/tutorial/) - Java is a general-purpose computer programming language that is concurrent, class-based, object-oriented.
 - [Scala](http://www.scala-lang.org/) - General purpose language; multiparadigm (object-oriented, functional, concurrent elements); statically typed, type-safe; focus: Web services.
@@ -101,19 +116,6 @@ Any **recommendations** and **suggestions** are welcomed.
 - [Trie](http://www.geeksforgeeks.org/data-structures/#AdvancedDataStructure) - A trie, also called digital tree and sometimes radix tree or prefix tree (as they can be searched by prefixes), is a kind of search tree—an ordered tree data structure that is used to store a dynamic set or associative array where the keys are usually strings.
 - [Suffix Tree](http://www.geeksforgeeks.org/data-structures/#AdvancedDataStructure) - A suffix tree (also called PAT tree or, in an earlier form, position tree) is a compressed trie containing all the suffixes of the given text as their keys and positions in the text as their values.
 - [Inverted Index](https://en.wikipedia.org/wiki/Inverted_index) - In computer science, an inverted index (also referred to as postings file or inverted file) is an index data structure storing a mapping from content, such as words or numbers, to its locations in a database file, or in a document or a set of documents.
-
-***********
-
-## Architecture
-- [SMACK Stack](http://www.cakesolutions.net/teamblogs/smack-stack-on-dcos) - The SMACK stack consists of Spark, Mesos, Akka, Cassandra and Kafka.
-- [Functional programming](https://en.wikipedia.org/wiki/Functional_programming) - In computer science, functional programming is a programming paradigm—a style of building the structure and elements of computer programs—that treats computation as the evaluation of mathematical functions and avoids changing-state and mutable data. 
-- [Microservices](https://en.wikipedia.org/wiki/Microservices) - Microservices is a specialisation of and implementation approach for distributed architectures used to build flexible, independently deployable software systems.
-- [Reactive Programming](https://en.wikipedia.org/wiki/Reactive_programming) - Reactive programming is about non-blocking applications that are asynchronous and event-driven and require a small number of threads to scale.
-- [Lambda Architecture](http://lambda-architecture.net/) - Lambda architecture is a data-processing architecture designed to handle massive quantities of data by taking advantage of both batch- and stream-processing.
-- [CQRS](http://martinfowler.com/bliki/CQRS.html) - Command and Query Responsibility Segregation (CQRS) is a pattern that segregates the operations that read data (Queries) from the operations that update data (Commands) by using separate interfaces.
-- [Event Sourcing](http://microservices.io/patterns/data/event-sourcing.html) - Event Sourcing persists each business entity as a sequence of events, and events are immutable.
-- [Materialized View](https://en.wikipedia.org/wiki/Materialized_view) - A materialized view is a database object that contains the results of a query.
-- [DDD](https://en.wikipedia.org/wiki/Domain-driven_design) - Domain-driven design (DDD) is an approach to software development for complex needs by connecting the implementation to an evolving model.
 
 ***********
 
@@ -154,6 +156,8 @@ Any **recommendations** and **suggestions** are welcomed.
 ### Deep Learning
 - [TensorFlow](https://www.tensorflow.org/) - TensorFlow™ is an open source software library for numerical computation using data flow graphs.
 - [Theano](http://deeplearning.net/software/theano/) - Theano is a Python library that allows you to define, optimize, and evaluate mathematical expressions involving multi-dimensional arrays efficiently.
+- [Caffe](http://caffe.berkeleyvision.org/) - Caffe is a deep learning framework made with expression, speed, and modularity.
+- [Torch](http://torch.ch/) - Torch is a scientific computing framework with wide support for machine learning algorithms that puts GPUs first.
 - [OpenNLP](https://opennlp.apache.org/) - Apache OpenNLP is a Java machine learning toolkit for natural language processing (NLP).
 
 ### ML Tools

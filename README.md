@@ -85,7 +85,7 @@ Any **recommendations** and **suggestions** are welcomed.
 
 ## Programming Languages
 - [Java](https://docs.oracle.com/javase/tutorial/) - Java is a general-purpose computer programming language that is concurrent, class-based, object-oriented.
-![Alt text](resources/Java_collection_cheat_sheet.PNG?raw=true "Java collections cheat sheet")
+![Alt text](resources/Java_collection_cheat_sheet.PNG?raw=true)
 - [Scala](http://www.scala-lang.org/) - General purpose language; multiparadigm (object-oriented, functional, concurrent elements); statically typed, type-safe; focus: Web services.
 - [Go](https://golang.org/) - Go is an open source programming language that makes it easy to build simple, reliable, and efficient software.
 - [Python](https://www.python.org/) - Python is a widely used high-level, general-purpose, interpreted, dynamic programming language.
@@ -104,11 +104,29 @@ Any **recommendations** and **suggestions** are welcomed.
 
 ### Algorithm Fundamental
 - [Sorting](http://algs4.cs.princeton.edu/20sorting/) - Sorting is the process of rearranging a sequence of objects so as to put them in some logical order.
+![Alt text](resources/Sorting_algorithm_cheat_sheet.PNG?raw=true)
+
+    - InsertionSort               
+```
+    public static void sort(int[] a) {
+        int temp;
+        for (int i = 1; i < a.length; i++) {
+            for (int j = i; j > 0; j--) {
+                if (a[j] < a[j - 1]) {
+                    temp = a[j];
+                    a[j] = a[j - 1];
+                    a[j - 1] = temp;
+                }
+            }
+        }
+    }
+```
 - [Searching](http://algs4.cs.princeton.edu/30searching/) - Modern computing and the internet have made accessible a vast amount of information.
 - [String](http://algs4.cs.princeton.edu/50strings/) - We communicate by exchanging strings of characters. We consider classic algorithms for addressing the underlying computational challenges surrounding applications.
 - [Graph](http://algs4.cs.princeton.edu/40graphs/) - Typical graph algorithm problems for this example would be to determine how two people are related, or to draw this graph as a nice picture of the family tree.
 
 ### Data Structures
+![Alt text](resources/Datastructure_cheat_sheet.PNG?raw=true)
 - [LinkedList](http://www.geeksforgeeks.org/data-structures/#LinkedList) - Like arrays, Linked List is a linear data structure. Unlike arrays, linked list elements are not stored at contiguous location; the elements are linked using pointers.
 - [Stack](http://www.geeksforgeeks.org/stack/) - A stack is an abstract data type that serves as a collection of elements, with two principal operations: push, which adds an element to the collection, and pop, which removes the most recently added element that was not yet removed.
 - [Queue](http://www.geeksforgeeks.org/data-structures/#Queue) - Queue is an abstract data structure, somewhat similar to Stacks. Unlike stacks, a queue is open at both its ends. One end is always used to insert data (enqueue) and the other is used to remove data (dequeue).

@@ -106,9 +106,26 @@ Any **recommendations** and **suggestions** are welcomed.
 - [Sorting](http://algs4.cs.princeton.edu/20sorting/) - Sorting is the process of rearranging a sequence of objects so as to put them in some logical order.
 ![Alt text](resources/Sorting_algorithm_cheat_sheet.PNG?raw=true)
 
-    - InsertionSort               
+###### Selection Sort
 ```
-    public static void sort(int[] a) {
+    public int[] sort(int[] arr) {
+        for (int i = 0; i < arr.length - 1; i++) {
+            int index = i;
+            for (int j = i + 1; j < arr.length; j++) {
+                if (arr[j] < arr[index])
+                    index = j;
+            }
+            int temp = arr[index];
+            arr[index] = arr[i];
+            arr[i] = temp;
+        }
+        return arr;
+    }
+```
+    
+###### Insertion Sort               
+```
+    public void sort(int[] a) {
         int temp;
         for (int i = 1; i < a.length; i++) {
             for (int j = i; j > 0; j--) {
@@ -121,6 +138,106 @@ Any **recommendations** and **suggestions** are welcomed.
         }
     }
 ```
+
+###### Bubble Sort
+```
+    public void sort(int[] a) {
+        int j;
+        boolean flag = true;
+        int temp;   //holding variable
+
+        while (flag) {
+            flag = false;
+            for (j = 0; j < a.length - 1; j++) {
+                if (a[j] > a[j + 1]) { 
+                    temp = a[j];               
+                    a[j] = a[j + 1];
+                    a[j + 1] = temp;
+                    flag = true; 
+                }
+            }
+        }
+    }
+```
+
+###### Merge Sort
+```
+    public Comparable[] mergeSort(Comparable[] list) {
+        if (list.length <= 1) {
+            return list;
+        }
+
+        Comparable[] first = new Comparable[list.length / 2];
+        Comparable[] second = new Comparable[list.length - first.length];
+        System.arraycopy(list, 0, first, 0, first.length);
+        System.arraycopy(list, first.length, second, 0, second.length);
+
+        mergeSort(first);
+        mergeSort(second);
+
+        merge(first, second, list);
+        return list;
+    }
+
+    private static void merge(Comparable[] first, Comparable[] second, Comparable[] result) {
+        int iFirst = 0;
+        int iSecond = 0;
+        int iMerged = 0;
+        while (iFirst < first.length && iSecond < second.length) {
+            if (first[iFirst].compareTo(second[iSecond]) < 0) {
+                result[iMerged] = first[iFirst];
+                iFirst++;
+            } else {
+                result[iMerged] = second[iSecond];
+                iSecond++;
+            }
+            iMerged++;
+        }
+        System.arraycopy(first, iFirst, result, iMerged, first.length - iFirst);
+        System.arraycopy(second, iSecond, result, iMerged, second.length - iSecond);
+    }
+```
+
+###### Quick Sort
+```
+    public void quickSort(int[] arr, int low, int high) {
+        if (arr == null || arr.length == 0)
+            return;
+
+        if (low >= high)
+            return;
+
+        // pick the pivot
+        int middle = low + (high - low) / 2;
+        int pivot = arr[middle];
+
+        int i = low, j = high;
+        while (i <= j) {
+            while (arr[i] < pivot) {
+                i++;
+            }
+
+            while (arr[j] > pivot) {
+                j--;
+            }
+
+            if (i <= j) {
+                int temp = arr[i];
+                arr[i] = arr[j];
+                arr[j] = temp;
+                i++;
+                j--;
+            }
+        }
+
+        if (low < j)
+            quickSort(arr, low, j);
+
+        if (high > i)
+            quickSort(arr, i, high);
+    }
+```
+
 - [Searching](http://algs4.cs.princeton.edu/30searching/) - Modern computing and the internet have made accessible a vast amount of information.
 - [String](http://algs4.cs.princeton.edu/50strings/) - We communicate by exchanging strings of characters. We consider classic algorithms for addressing the underlying computational challenges surrounding applications.
 - [Graph](http://algs4.cs.princeton.edu/40graphs/) - Typical graph algorithm problems for this example would be to determine how two people are related, or to draw this graph as a nice picture of the family tree.

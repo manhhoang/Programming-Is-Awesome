@@ -123,7 +123,7 @@ Any **recommendations** and **suggestions** are welcomed.
     }
 ```
     
-###### Insertion Sort               
+###### Insertion Sort - Stable               
 ```
     public void sort(int[] a) {
         int temp;
@@ -139,7 +139,7 @@ Any **recommendations** and **suggestions** are welcomed.
     }
 ```
 
-###### Bubble Sort
+###### Bubble Sort - Stable
 ```
     public void sort(int[] a) {
         int j;
@@ -160,7 +160,7 @@ Any **recommendations** and **suggestions** are welcomed.
     }
 ```
 
-###### Merge Sort
+###### Merge Sort - Stable
 ```
     public Comparable[] mergeSort(Comparable[] list) {
         if (list.length <= 1) {
@@ -235,6 +235,45 @@ Any **recommendations** and **suggestions** are welcomed.
 
         if (high > i)
             quickSort(arr, i, high);
+    }
+```
+###### Radix Sort
+```
+    private int getMax(int arr[], int n) {
+        int mx = arr[0];
+        for (int i = 1; i < n; i++)
+            if (arr[i] > mx)
+                mx = arr[i];
+        return mx;
+    }
+
+    private void countingSort(int arr[], int n, int exp) {
+        int output[] = new int[n];
+        int i;
+        int count[] = new int[10];
+        Arrays.fill(count, 0);
+
+        for (i = 0; i < n; i++)
+            count[(arr[i] / exp) % 10]++;
+
+        for (i = 1; i < 10; i++)
+            count[i] += count[i - 1];
+
+        for (i = n - 1; i >= 0; i--) {
+            output[count[(arr[i] / exp) % 10] - 1] = arr[i];
+            count[(arr[i] / exp) % 10]--;
+        }
+
+        for (i = 0; i < n; i++)
+            arr[i] = output[i];
+    }
+
+    public void radixsort(int arr[], int n) {
+        // Find the maximum number to know number of digits
+        int m = getMax(arr, n);
+
+        for (int exp = 1; m / exp > 0; exp *= 10)
+            countingSort(arr, n, exp);
     }
 ```
 

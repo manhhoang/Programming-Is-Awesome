@@ -180,7 +180,7 @@ Any **recommendations** and **suggestions** are welcomed.
         return list;
     }
 
-    private static void merge(Comparable[] first, Comparable[] second, Comparable[] result) {
+    private void merge(Comparable[] first, Comparable[] second, Comparable[] result) {
         int iFirst = 0;
         int iSecond = 0;
         int iMerged = 0;

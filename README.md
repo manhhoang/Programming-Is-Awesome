@@ -35,6 +35,7 @@ Any **recommendations** and **suggestions** are welcomed.
     - [Profiling Tools](#profiling-tools)
     - [Distributed Job Scheduler](#distributed-job-scheduler)
 - [Database](#database)
+    - [Database Indexing](#database-indexing)
     - [Column Family](#column-family)
     - [Document Oriented](#document-oriented)
     - [Search DB](#search-db)
@@ -438,6 +439,21 @@ Any **recommendations** and **suggestions** are welcomed.
 
 ## Database
 
+### Database Indexing
+
+- Hash Index - They are used only for equality comparisons that use the = operators (but are very fast). 
+They are not used for comparison operators such as < that find a range of values. Systems that rely on this type of single-value lookup are known as “key-value stores”.
+Only whole keys can be used to search for a row. (With a B-tree index, any leftmost prefix of the key can be used to find rows.)
+- Bitmap Index - Bitmap indexes are not suitable for OLTP applications with large numbers of concurrent transactions modifying the data. 
+These indexes are primarily intended for decision support (DSS) in data warehousing applications where users typically query the data rather than update it.
+The advantages of using bitmap indexes are greatest for low cardinality columns: that is, columns in which the number of distinct values is small compared to the number of rows in the table. 
+A gender column, which only has two distinct values (male and female), is ideal for a bitmap index.
+Data is frequently updated in and deleted from OLTP applications, bitmap indexes can cause a serious locking problem in these situations.
+- B-tree Index - A B-tree index can be used for column comparisons in expressions that use the =, >, >=, <, <=, or BETWEEN operators. 
+The index also can be used for LIKE comparisons if the argument to LIKE is a constant string that does not start with a wildcard character.
+B-tree indexes are well suited for OLTP applications in which users' queries are relatively routine.
+- Inverted Index - This type of index is called an inverted index, because it inverts a page-centric data structure (page->words) to a keyword-centric data structure (word->pages).
+
 ### Column Family
 - [DataStax Enterprise](http://www.datastax.com/) - DataStax powers the big data applications that transform business and profoundly improve customer experiences through Apache Cassandra™.
 - [Amazon DynamoDB](https://aws.amazon.com/documentation/dynamodb/) - Amazon DynamoDB is a fully managed NoSQL database service that provides fast and predictable performance with seamless scalability.
@@ -460,6 +476,7 @@ Any **recommendations** and **suggestions** are welcomed.
 
 ### Graph DB
 - [Neo4j](https://neo4j.com/) - Neo4j is a graph database management system developed by Neo Technology, Inc.
+- [DataStax Enterprise Graph](https://www.datastax.com/products/datastax-enterprise-graph) - DataStax Enterprise Graph is the first graph database fast enough to power customer facing applications, capable of scaling to massive datasets and advanced integrated tools capable of powering deep analytical queries.
 - [Titan](http://titan.thinkaurelius.com/) - Titan is a scalable graph database optimized for storing and querying graphs containing hundreds of billions of vertices and edges distributed across clusters.
 - [GraphX](http://spark.apache.org/graphx/) - GraphX is Apache Spark's API for graphs and graph-parallel computation, with a built-in library of common algorithms.
 

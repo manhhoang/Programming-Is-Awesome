@@ -88,7 +88,7 @@ Any **recommendations** and **suggestions** are welcomed.
 - [Java](https://docs.oracle.com/javase/tutorial/) - Java is a general-purpose computer programming language that is concurrent, class-based, object-oriented.
 ![Alt text](resources/Java_collection_cheat_sheet.PNG?raw=true)
 - [Scala](http://www.scala-lang.org/) - General purpose language; multiparadigm (object-oriented, functional, concurrent elements); statically typed, type-safe; focus: Web services.
-![Alt text](resources/Scala_collections_cheat_sheet.PNG?raw=true)
+![Alt text](resources/Scala_collections_cheat_sheet.png?raw=true)
 - [Go](https://golang.org/) - Go is an open source programming language that makes it easy to build simple, reliable, and efficient software.
 - [Python](https://www.python.org/) - Python is a widely used high-level, general-purpose, interpreted, dynamic programming language.
 - [JavaScript](https://en.wikipedia.org/wiki/JavaScript) - JavaScript is a high-level, dynamic, untyped, and interpreted programming language. It has been standardized in the ECMAScript language specification.

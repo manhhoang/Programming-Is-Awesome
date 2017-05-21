@@ -280,6 +280,83 @@ Any **recommendations** and **suggestions** are welcomed.
 ```
 
 - [Searching](http://algs4.cs.princeton.edu/30searching/) - Modern computing and the internet have made accessible a vast amount of information.
+###### Binary Search
+```
+    public int binarySearch(int key, int[] a) {
+        Arrays.sort(a);
+        int low = 0;
+        int high = a.length - 1;
+        while (low <= high) {
+            int middle = (low + high) / 2;
+            if (a[middle] == key) {
+                return a[middle];
+            }
+            if (a[middle] < key) {
+                low = middle + 1;
+            }
+            if (a[middle] > key) {
+                high = middle - 1;
+            }
+        }
+        return -1;
+    }
+```
+###### Depth First Search
+```
+    private final int ROW = 5, COL = 5;
+
+    private int dfs(int m[][], int i, int j, boolean visited[][]) {
+        // These arrays are used to get row and column numbers of 8 neighbors of a given cell
+        int x[] = new int[] {-1, -1, -1,  0, 0,  1, 1, 1};
+        int y[] = new int[] {-1,  0,  1, -1, 1, -1, 0, 1};
+        int no = 1;
+        visited[i][j] = true;
+
+        // Recur for all connected neighbours
+        for (int k = 0; k < 8; ++k){
+            int a = i + x[k];
+            int b = j + y[k];
+            if (a >= 0 && a < ROW && b >= 0 && b < COL && m[a][b]==1 && !visited[a][b]){
+                int c = dfs(m, a, b, visited);
+                no += c;
+            }
+        }
+        return no;
+    }
+```
+###### Breadth First Search
+```
+    private final int ROW = 5, COL = 5;
+
+    public int[][] bfs(int[][] map, Point start){
+        int[] x = {0,  0, 1, -1}; //This represent 4 directions right, left, down , up
+        int[] y = {1, -1, 0,  0}; //This represent 4 directions right, left, down , up
+        LinkedList<Point> q = new LinkedList<>();
+        q.add(start);
+        boolean[][] visited = new boolean[COL][ROW];
+        for(boolean[] v : visited){
+            Arrays.fill(v, false);
+        }
+        int[][] distTo = new int[COL][ROW];
+        distTo[start.x][start.y] = 0;
+        visited[start.x][start.y] = true;
+        while(!q.isEmpty()){
+            Point p = q.removeFirst();
+            for(int i = 0; i < 4; i++){
+                int a = p.x + x[i];
+                int b = p.y + y[i];
+                if(a >= 0 && b >= 0 && a < ROW && b < COL && !visited[a][b] && map[a][b] == 0){
+                    distTo[a][b] = distTo[p.x][p.y] + 1;
+                    visited[a][b] = true;
+                    q.add(new Point(a,b));
+                }
+            }
+        }
+
+        return distTo;
+    }
+```
+    
 - [String](http://algs4.cs.princeton.edu/50strings/) - We communicate by exchanging strings of characters. We consider classic algorithms for addressing the underlying computational challenges surrounding applications.
 - [Graph](http://algs4.cs.princeton.edu/40graphs/) - Typical graph algorithm problems for this example would be to determine how two people are related, or to draw this graph as a nice picture of the family tree.
 

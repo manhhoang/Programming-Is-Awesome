@@ -637,7 +637,8 @@ B-tree indexes are well suited for OLTP applications in which users' queries are
 - [Concurrent](https://www.concurrent.com/) - One of the distributor in Hadoop world. 
 
 ### Big Data Ingestion Layer
-- [Apache Kafka](https://kafka.apache.org/) - Kafka™ is used for building real-time data pipelines and streaming apps. 
+- [Apache Kafka](https://kafka.apache.org/) - Kafka™ is used for building real-time data pipelines and streaming apps.
+![Alt text](resources/Kafka_partitioning.PNG?raw=true)
 - [Apache Flume](https://flume.apache.org/) - Flume is a distributed, reliable, and available service for efficiently collecting, aggregating, and moving large amounts of log data.
 - [RabbitMQ](https://www.rabbitmq.com/) - RabbitMQ is open source message broker software that implements the Advanced Message Queuing Protocol (AMQP).
 - [Mosquitto](https://mosquitto.org/) - Mosquitto is an open source message broker that implements the MQTT (MQ Telemetry Transport) protocol v3.1.

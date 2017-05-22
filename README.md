@@ -543,6 +543,22 @@ B-tree indexes are well suited for OLTP applications in which users' queries are
 - [DataStax Enterprise](http://www.datastax.com/) - DataStax powers the big data applications that transform business and profoundly improve customer experiences through Apache Cassandra™.
 - [Amazon DynamoDB](https://aws.amazon.com/documentation/dynamodb/) - Amazon DynamoDB is a fully managed NoSQL database service that provides fast and predictable performance with seamless scalability.
 - [Cassandra](http://cassandra.apache.org/) - The Apache Cassandra database is the right choice when you need scalability and high availability without compromising performance.
+
+![Alt text](resources/Cassandra_cluster.png?raw=true)
+    
+ **Rule 1: Spread Data Evenly Around the Cluster**
+
+ **You want every node in the cluster to have roughly the same amount of data. Cassandra makes this easy, but it's not a given. 
+   Rows are spread around the cluster based on a hash of the partition key, which is the first element of the PRIMARY KEY. 
+   So, the key to spreading data evenly is this: pick a good primary key. I'll explain how to do this in a bit.**
+
+ **Rule 2: Minimize the Number of Partitions Read**
+
+ **Partitions are groups of rows that share the same partition key. When you issue a read query, you want to read rows from as few partitions as possible.**
+
+ **Why is this important? Each partition may reside on a different node. The coordinator will generally need to issue separate commands to separate nodes for each partition you request. 
+   This adds a lot of overhead and increases the variation in latency. Furthermore, even on a single node, it's more expensive to read from multiple partitions than from a single one due to the way rows are stored.**
+
 - [Apache HBase](http://hbase.apache.org/) - Apache HBase™ is the Hadoop database, a distributed, scalable, big data store. Use Apache HBase™ when you need random, realtime read/write access.
 - [Apache Accumulo](https://accumulo.apache.org/) - Apache Accumulo™ is a sorted, distributed key/value store that provides robust, scalable data storage and retrieval.
 - [Riak KV](http://basho.com/products/riak-kv/) - Riak® KV is a distributed NoSQL key-value database with advanced local and multi-cluster replication that guarantees reads and writes even in the event of hardware failures or network partitions.

@@ -75,6 +75,12 @@ Any **recommendations** and **suggestions** are welcomed.
 - [SMACK Stack](http://www.cakesolutions.net/teamblogs/smack-stack-on-dcos) - The SMACK stack consists of Spark, Mesos, Akka, Cassandra and Kafka.
 - [Functional programming](https://en.wikipedia.org/wiki/Functional_programming) - Functional programming is a programming paradigm that treats computation as the evaluation of mathematical functions and avoids changing-state and mutable data. 
 - [Microservices](https://en.wikipedia.org/wiki/Microservices) - Microservices is a specialisation of and implementation approach for distributed architectures used to build flexible, independently deployable software systems.
+
+![Alt text](resources/Microservices_architecture.PNG?raw=true)
+
+  **Kafka is the data pipelines for the organisation data. Both synchronous and asynchronous communication strategies have their use, 
+  but you should make an effort to architect your system of microservices using asynchronous communication whenever possible.**
+    
 - [Reactive Programming](https://en.wikipedia.org/wiki/Reactive_programming) - Reactive programming is about non-blocking applications that are asynchronous and event-driven and require a small number of threads to scale.
 - [Lambda Architecture](http://lambda-architecture.net/) - Lambda architecture is a data-processing architecture designed to handle massive quantities of data by taking advantage of both batch- and stream-processing.
 - [CQRS](http://martinfowler.com/bliki/CQRS.html) - Command and Query Responsibility Segregation (CQRS) is a pattern that segregates the operations that read data (Queries) from the operations that update data (Commands) by using separate interfaces.
@@ -638,9 +644,10 @@ B-tree indexes are well suited for OLTP applications in which users' queries are
 
 ### Big Data Ingestion Layer
 - [Apache Kafka](https://kafka.apache.org/) - Kafka™ is used for building real-time data pipelines and streaming apps.
+
 ![Alt text](resources/Kafka_partition.png?raw=true)
 
-    **Producer is writing to partition 0 of the topic and partition 0 replicates that write to the available replicas.**
+  **Producer is writing to partition 0 of the topic and partition 0 replicates that write to the available replicas.**
 - [Apache Flume](https://flume.apache.org/) - Flume is a distributed, reliable, and available service for efficiently collecting, aggregating, and moving large amounts of log data.
 - [RabbitMQ](https://www.rabbitmq.com/) - RabbitMQ is open source message broker software that implements the Advanced Message Queuing Protocol (AMQP).
 - [Mosquitto](https://mosquitto.org/) - Mosquitto is an open source message broker that implements the MQTT (MQ Telemetry Transport) protocol v3.1.

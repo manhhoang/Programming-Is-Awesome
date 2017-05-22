@@ -647,7 +647,18 @@ B-tree indexes are well suited for OLTP applications in which users' queries are
 
 ![Alt text](resources/Kafka_partition.png?raw=true)
 
-  **Producer is writing to partition 0 of the topic and partition 0 replicates that write to the available replicas.**
+  **Producer is writing to partition 0 of the topic and partition 0 replicates that write to the available replicas.
+    A partition can have multiple replicas, each stored on a different broker. 
+    One of the replicas is designated as the leader and the rest of the replicas are followers. 
+    Internally, Kafka manages all those replicas automatically and makes sure that they are kept in sync. 
+    Both the producer and the consumer requests to a partition are served on the leader replica. 
+    When a broker fails, partitions with a leader on that broker become temporarily unavailable. 
+    Kafka will automatically move the leader of those unavailable partitions to some other replicas to continue serving the client requests. 
+    This process is done by one of the Kafka brokers designated as the controller. 
+    It involves reading and writing some metadata for each affected partition in ZooKeeper. 
+    Currently, operations to ZooKeeper are done serially in the controller. 
+    [More Information](https://www.confluent.io/blog/how-to-choose-the-number-of-topicspartitions-in-a-kafka-cluster/)**
+    
 - [Apache Flume](https://flume.apache.org/) - Flume is a distributed, reliable, and available service for efficiently collecting, aggregating, and moving large amounts of log data.
 - [RabbitMQ](https://www.rabbitmq.com/) - RabbitMQ is open source message broker software that implements the Advanced Message Queuing Protocol (AMQP).
 - [Mosquitto](https://mosquitto.org/) - Mosquitto is an open source message broker that implements the MQTT (MQ Telemetry Transport) protocol v3.1.

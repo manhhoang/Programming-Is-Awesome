@@ -557,7 +557,8 @@ B-tree indexes are well suited for OLTP applications in which users' queries are
  **Partitions are groups of rows that share the same partition key. When you issue a read query, you want to read rows from as few partitions as possible.**
 
  **Why is this important? Each partition may reside on a different node. The coordinator will generally need to issue separate commands to separate nodes for each partition you request. 
-   This adds a lot of overhead and increases the variation in latency. Furthermore, even on a single node, it's more expensive to read from multiple partitions than from a single one due to the way rows are stored.**
+   This adds a lot of overhead and increases the variation in latency. Furthermore, even on a single node, it's more expensive to read from multiple partitions than from a single one due to the way rows are stored.
+   [More Information](http://www.datastax.com/dev/blog/basic-rules-of-cassandra-data-modeling)**
 
 - [Apache HBase](http://hbase.apache.org/) - Apache HBase™ is the Hadoop database, a distributed, scalable, big data store. Use Apache HBase™ when you need random, realtime read/write access.
 - [Apache Accumulo](https://accumulo.apache.org/) - Apache Accumulo™ is a sorted, distributed key/value store that provides robust, scalable data storage and retrieval.

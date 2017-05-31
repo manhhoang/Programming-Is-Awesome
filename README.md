@@ -448,7 +448,7 @@ Any **recommendations** and **suggestions** are welcomed.
 - [Akka](http://akka.io/) - Akka is a toolkit and runtime for building highly concurrent, distributed, and resilient message-driven applications on the JVM.
 - [Play Framework](https://www.playframework.com/) - Play Framework makes it easy to build web applications with Java & Scala. Play is based on a lightweight, stateless, web-friendly architecture. Built on Akka.
 - [Spring Web Reactive](http://docs.spring.io/spring-framework/docs/5.0.0.M1/spring-framework-reference/html/web-reactive.html) - Reactive programming is about non-blocking applications that are asynchronous and event-driven and require a small number of threads to scale.
-- [Reactor](http://projectreactor.io/) - Reactor is a fully non-blocking foundation with efficient demand management.
+- [Project Reactor](http://projectreactor.io/) - Reactor is a fully non-blocking foundation with efficient demand management.
 - [ReactiveX](http://reactivex.io/) - ReactiveX is a combination of the best ideas from the Observer pattern, the Iterator pattern, and functional programming.
 - [Vert.x](http://vertx.io/) - Vert.x is a tool-kit for building reactive applications on the JVM.
 - [Erlang](https://www.erlang.org/) - Erlang is a programming language used to build massively scalable soft real-time systems with requirements on high availability.

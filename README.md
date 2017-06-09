@@ -744,6 +744,7 @@ B-tree indexes are well suited for OLTP applications in which users' queries are
 
 ## DevOps
 - [Docker](https://www.docker.com/) - Docker is an open platform for developers and sysadmins to build, ship, and run distributed applications, whether on laptops, data center VMs, or the cloud.
+- [Boxfuse](https://boxfuse.com/) - Boxfuse generates minimal images for your application in seconds. They boot directly on virtual hardware. There is no classic OS and no container runtime. 
 - [Ansible](https://www.ansible.com/) - Ansible is the simplest way to automate apps and IT infrastructure.
 - [Jenkins](https://jenkins.io/) - Jenkins is an open source automation server written in Java.
 - [Bamboo](https://www.atlassian.com/software/bamboo) - Continuous delivery, from code to deployment. ... Focus on coding and count on Bamboo as your CI and build server.

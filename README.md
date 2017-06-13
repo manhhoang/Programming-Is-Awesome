@@ -23,6 +23,7 @@ Any **recommendations** and **suggestions** are welcomed.
 - [Frameworks & Tools](#frameworks--tools)
     - [Reactive Framework](#reactive-framework)
     - [Micoservices Framework](#micoservices-framework)
+    - [EventDriven Framework](#eventdriven-framework)
     - [ORM](#orm)
     - [Monitoring](#monitoring)
     - [Load Balancer](#load-balancer)
@@ -463,6 +464,10 @@ Any **recommendations** and **suggestions** are welcomed.
 - [Dropwizard](http://www.dropwizard.io/) - Dropwizard is a Java framework for developing ops-friendly, high-performance, RESTful web services.
 - [Sparkjava](http://sparkjava.com/) - Spark Framework - Create web applications in Java rapidly. Spark is a micro web framework that lets you focus on writing your code, not boilerplate code.
 - [Gin](https://github.com/gin-gonic/gin) - Gin is a web framework written in Go (Golang). It features a martini-like API with much better performance, up to 40 times faster thanks to httprouter.
+
+### EventDriven Framework
+- [AxonFramework](http://www.axonframework.org/) - The axon framework is focussed on making life easier for developers that want to create a java application based on the CQRS principles.
+- [Eventuate](http://eventuate.io/) - The Eventuate™ Platform provides a simple yet powerful event-driven programming model that solves the distributed data management problems inherent in a microservice architecture. The programming model is based on two well established patterns: Event Sourcing and Command Query Responsibility Segregation (CQRS). 
 
 ### ORM
 - [Hibernate](http://hibernate.org/) - Hibernate an open source Java persistence framework project.

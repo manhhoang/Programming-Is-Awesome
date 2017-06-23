@@ -93,6 +93,7 @@ Any **recommendations** and **suggestions** are welcomed.
 
 ## Programming Languages
 - [Java](https://docs.oracle.com/javase/tutorial/) - Java is a general-purpose computer programming language that is concurrent, class-based, object-oriented.
+
 ![Alt text](resources/JVM_Architecture.png?raw=true)
 
 ![Alt text](resources/Java_collection_cheat_sheet.PNG?raw=true)

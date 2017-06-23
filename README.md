@@ -93,6 +93,8 @@ Any **recommendations** and **suggestions** are welcomed.
 
 ## Programming Languages
 - [Java](https://docs.oracle.com/javase/tutorial/) - Java is a general-purpose computer programming language that is concurrent, class-based, object-oriented.
+![Alt text](resources/JVM_Architecture.png?raw=true)
+
 ![Alt text](resources/Java_collection_cheat_sheet.PNG?raw=true)
 - [Scala](http://www.scala-lang.org/) - General purpose language; multiparadigm (object-oriented, functional, concurrent elements); statically typed, type-safe; focus: Web services.
 ![Alt text](resources/Scala_collections_cheat_sheet.png?raw=true)

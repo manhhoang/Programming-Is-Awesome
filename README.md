@@ -46,7 +46,7 @@ Any **recommendations** and **suggestions** are welcomed.
     - [Event Store](#event-store)
     - [Embedded Database](#embedded-database)
     - [Time Series](#time-series)
-- [Data Warehouse](#data-warehouse)
+    - [Columnar Database](#columnar-database)
 - [Storage](#storage)
 - [Blockchain](#blockchain)
 - [Big Data](#big-data)
@@ -630,9 +630,7 @@ B-tree indexes are well suited for OLTP applications in which users' queries are
 - [Riak TS](http://basho.com/products/riak-ts/) - Riak® TS is the only enterprise-grade NoSQL time series database optimized specifically for IoT and Time Series data.
 - [InfluxDB](https://www.influxdata.com/) - InfluxDB is an open-source time series database developed by InfluxData as part of their time series platform. It is written in Go and optimized for fast. 
 
-***********
-
-## Data Warehouse
+### Columnar Database
 - [Redshift](https://aws.amazon.com/documentation/redshift/) - Amazon Redshift is a fast, fully managed, petabyte-scale data warehouse service.
 - [Vertica](http://www8.hp.com/us/en/software-solutions/advanced-sql-big-data-analytics/) - HPE Vertica 8 introduces a unified architecture and advanced in-database analytics capabilities that enable users to conduct sophisticated analysis at industry-leading scale and speed.
 - [Teradata](http://www.teradata.com/) - Teradata is a leading provider of powerful, enterprise big data analytics and services that include Data Warehousing, Data Driven Marketing.

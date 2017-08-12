@@ -24,6 +24,7 @@ Any **recommendations** and **suggestions** are welcomed.
     - [Reactive Framework](#reactive-framework)
     - [Micoservices Framework](#micoservices-framework)
     - [EventDriven Framework](#eventdriven-framework)
+    - [Graph](#graph)
     - [ORM](#orm)
     - [Monitoring](#monitoring)
     - [Load Balancer](#load-balancer)
@@ -83,6 +84,7 @@ Any **recommendations** and **suggestions** are welcomed.
   but you should make an effort to architect your system of microservices using asynchronous communication whenever possible.**
     
 - [Reactive Programming](https://en.wikipedia.org/wiki/Reactive_programming) - Reactive programming is about non-blocking applications that are asynchronous and event-driven and require a small number of threads to scale.
+- [Reactive Streams](http://www.reactive-streams.org/) - Reactive Streams is an initiative to provide a standard for asynchronous stream processing with non-blocking back pressure.
 - [Lambda Architecture](http://lambda-architecture.net/) - Lambda architecture is a data-processing architecture designed to handle massive quantities of data by taking advantage of both batch- and stream-processing.
 - [CQRS](http://martinfowler.com/bliki/CQRS.html) - Command and Query Responsibility Segregation (CQRS) is a pattern that segregates the operations that read data (Queries) from the operations that update data (Commands) by using separate interfaces.
 - [Event Sourcing](http://microservices.io/patterns/data/event-sourcing.html) - Event Sourcing persists each business entity as a sequence of events, and events are immutable.
@@ -473,10 +475,15 @@ Any **recommendations** and **suggestions** are welcomed.
 - [Eventuate](http://eventuate.io/) - The Eventuate™ Platform provides a simple yet powerful event-driven programming model that solves the distributed data management problems inherent in a microservice architecture. The programming model is based on two well established patterns: Event Sourcing and Command Query Responsibility Segregation (CQRS). 
 
 ### ORM
-- [Hibernate](http://hibernate.org/) - Hibernate an open source Java persistence framework project.
 - [JPA](https://en.wikipedia.org/wiki/Java_Persistence_API) - The Java Persistence API (JPA) is a Java application programming interface specification that describes the management of relational data in applications using Java Platform.
+- [Hibernate](http://hibernate.org/) - Hibernate an open source Java persistence framework project.
 - [EclipseLink](http://www.eclipse.org/eclipselink/) - The software provides an extensible framework that allows Java developers to interact with various data services, including databases, web services, Object XML mapping (OXM), and Enterprise Information Systems (EIS).
-- [Slick](http://slick.lightbend.com/) - Slick is a modern database query and access library for Scala. 
+- [Slick](http://slick.lightbend.com/) - Slick is a modern database query and access library for Scala.
+- [Speedment](https://www.speedment.com/) - The Speedment Java stream ORM leverages standard Java 8 streams to allow fast development of relational database applications.
+
+### Graph
+- [TinkerPop](http://tinkerpop.apache.org/) - Apache TinkerPop™ is a graph computing framework for both graph databases (OLTP) and graph analytic systems (OLAP).
+- [Gremlin](https://tinkerpop.apache.org/gremlin.html) - Gremlin is the graph traversal language of Apache TinkerPop.
 
 ### Monitoring
 - [Ganglia](http://ganglia.info/) - Ganglia is a scalable distributed monitoring system for high-performance computing systems such as clusters and Grids.

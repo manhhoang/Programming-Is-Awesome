@@ -484,6 +484,8 @@ Any **recommendations** and **suggestions** are welcomed.
 ### Graph
 - [TinkerPop](http://tinkerpop.apache.org/) - Apache TinkerPop™ is a graph computing framework for both graph databases (OLTP) and graph analytic systems (OLAP).
 - [Gremlin](https://tinkerpop.apache.org/gremlin.html) - Gremlin is the graph traversal language of Apache TinkerPop.
+- [GraphX](http://spark.apache.org/graphx/) - GraphX is Apache Spark's API for graphs and graph-parallel computation, with a built-in library of common algorithms.
+- [Apache Giraph](http://giraph.apache.org/) - Apache Giraph is an iterative graph processing system built for high scalability. For example, it is currently used at Facebook to analyze the social graph formed by users and their connections.
 
 ### Monitoring
 - [Ganglia](http://ganglia.info/) - Ganglia is a scalable distributed monitoring system for high-performance computing systems such as clusters and Grids.
@@ -596,7 +598,6 @@ B-tree indexes are well suited for OLTP applications in which users' queries are
 - [Neo4j](https://neo4j.com/) - Neo4j is a graph database management system developed by Neo Technology, Inc.
 - [DataStax Enterprise Graph](https://www.datastax.com/products/datastax-enterprise-graph) - DataStax Enterprise Graph is the first graph database fast enough to power customer facing applications, capable of scaling to massive datasets and advanced integrated tools capable of powering deep analytical queries.
 - [Titan](http://titan.thinkaurelius.com/) - Titan is a scalable graph database optimized for storing and querying graphs containing hundreds of billions of vertices and edges distributed across clusters.
-- [GraphX](http://spark.apache.org/graphx/) - GraphX is Apache Spark's API for graphs and graph-parallel computation, with a built-in library of common algorithms.
 
 ### NewSQL
 - [NouDB](http://www.nuodb.com/) - NuoDB is a database startup company based in Cambridge, Massachusetts. It sells a NewSQL database that works in the cloud.

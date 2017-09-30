@@ -72,7 +72,7 @@ Any **recommendations** and **suggestions** are welcomed.
 ***********
 
 ## Architecture
-![ScreenShot](https://dl.dropboxusercontent.com/u/974078/Architecture.png)
+![ScreenShot](https://www.dropbox.com/s/ui9g5k84bayl9ly/Architecture.png?dl=0)
 
 - [SMACK Stack](http://www.cakesolutions.net/teamblogs/smack-stack-on-dcos) - The SMACK stack consists of Spark, Mesos, Akka, Cassandra and Kafka.
 - [Functional programming](https://en.wikipedia.org/wiki/Functional_programming) - Functional programming is a programming paradigm that treats computation as the evaluation of mathematical functions and avoids changing-state and mutable data. 

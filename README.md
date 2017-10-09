@@ -56,7 +56,8 @@ Any **recommendations** and **suggestions** are welcomed.
     - [Big Data Speed Layer](#big-data-speed-layer)
     - [Big Data Batch Layer](#big-data-batch-layer)
     - [Resource Manager](#resource-manager)
-    - [Distributed SQL Query Engine](#distributed-sql-query-engine)        
+    - [Distributed SQL Query Engine](#distributed-sql-query-engine)
+    - [Distributed Data Workflow](#distributed-data-workflow)        
 - [Distributed File System](#distributed-file-system)
 - [BI Tools](#bi-tools)   
 - [DevOps](#devops)
@@ -732,6 +733,10 @@ B-tree indexes are well suited for OLTP applications in which users' queries are
 - [Apache HAWQ](http://hawq.incubator.apache.org/) - Apache HAWQ (incubating) combines exceptional MPP-based analytics performance, robust ANSI SQL compliance, Hadoop ecosystem.
 - [IBM Big SQL](http://www.ibm.com/analytics/us/en/technology/big-sql/) - IBM Big SQL is a data warehouse system for Hadoop that you use to summarize, query, and analyze data.
 - [Apache Kylin](http://kylin.apache.org/) - Apache Kylin™ is an open source Distributed Analytics Engine.
+
+### Distributed Data Workflow
+- [Apache Airflow](https://airflow.incubator.apache.org/) - Airflow is a platform to programmatically author, schedule and monitor workflows.
+- [AWS Data Pipeline](https://aws.amazon.com/datapipeline/) - AWS Data Pipeline is a web service that helps you reliably process and move data between different AWS compute and storage services, as well as on-premise data sources, at specified intervals.
 
 ***********
 

@@ -737,6 +737,7 @@ B-tree indexes are well suited for OLTP applications in which users' queries are
 ### Distributed Data Workflow
 - [Apache Airflow](https://airflow.incubator.apache.org/) - Airflow is a platform to programmatically author, schedule and monitor workflows.
 - [AWS Data Pipeline](https://aws.amazon.com/datapipeline/) - AWS Data Pipeline is a web service that helps you reliably process and move data between different AWS compute and storage services, as well as on-premise data sources, at specified intervals.
+- [Oozie](http://oozie.apache.org/) - Oozie is a workflow scheduler system to manage Apache Hadoop jobs. Oozie Workflow jobs are Directed Acyclical Graphs (DAGs) of actions.
 
 ***********
 
